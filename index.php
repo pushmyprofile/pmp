@@ -40,28 +40,56 @@
             </div>
     </section>
      <section class="slope">
-     	<div class="row content our-work">
-      		<div class="large-12 columns">
+     <div class="row content padding-bottom-clear">
+      <div class="large-12 columns">
             <h2>Our <span class="orange-text">Work.</span></h2>
-        </div>
-        <ul id="og-grid" class="og-grid">
-					<li>
-						<a href="http://xtra.cleaning" data-largesrc="img/ourwork/small/xtra-small.png" data-title="Xtra Cleaning" data-description="Lorem ipsum dolor sit amet, a at, praesent sapien et, vitae scelerisque dui duis commodo, eleifend lobortis aliquam ante et. Iaculis mauris in ante pulvinar porttitor vel. Ullamcorper vitae ac, massa conubia, proin in. ">
-							<img src="img/ourwork/small/xtra-small.png" alt="Xtra Cleaning Branding & Web Design"/>
-						</a>
-					</li>
-                    <li>
-						<a href="" data-largesrc="img/ourwork/small/balleballe-small.png" data-title="Balle Balle Bistro" data-description="Lorem ipsum dolor sit amet, a at, praesent sapien et, vitae scelerisque dui duis commodo, eleifend lobortis aliquam ante et. Iaculis mauris in ante pulvinar porttitor vel. Ullamcorper vitae ac, massa conubia, proin in.">
-							<img src="img/ourwork/small/balleballe-small.png" alt="Balle Balle Bistro Web Design"/>
-						</a>
-					</li>
-        
-        </ul>
-        
-
-   
-    </div>
-     </section>
+        </div>      
+         </div>
+         </section>
+         <div class="content clear ">             
+         <ul class="our-work small-block-grid-2 large-block-grid-3"> 
+             <li><figure class="our-work-item">
+						<img src="img/ourwork/small/xtra-small.png" alt="img09"/>
+						<figcaption>
+							<h2>Funny <span>Ming</span></h2>
+							<p>Ming sits in the corner the whole day. She's into crochet.</p>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+             </li>
+             <li>
+             <figure class="our-work-item">
+						<img src="img/ourwork/small/balle-balle.png" alt="img09"/>
+						<figcaption>
+							<h2>Balle Balle <span>Bistro</span></h2>
+							<p>We have transformed this Indian Restuarant</p>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+             </li> 
+       <li><figure class="our-work-item">
+						<img src="img/ourwork/small/xtra-small.png" alt="img09"/>
+						<figcaption>
+							<h2>Funny <span>Ming</span></h2>
+							<p>Ming sits in the corner the whole day. She's into crochet.</p>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+             </li>
+             <li>
+             <figure class="our-work-item">
+						<img src="img/ourwork/small/balleballe-small.png" alt="img09"/>
+						<figcaption>
+							<h2>Funny <span>Ming</span></h2>
+							<p>Ming sits in the corner the whole day. She's into crochet.</p>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+             </li> 
+         </ul>
+         </div>        
+         
+     	
         
    
 

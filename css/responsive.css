@@ -89,5 +89,9 @@ width:100%;
 padding:50px;
 	
 }
+    
+.row.content {
+    padding: 100px 80px 180px;
+}
 
 }
