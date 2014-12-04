@@ -47,53 +47,147 @@
          </div>
          </section>
          <div class="content clear ">             
-         <ul class="our-work small-block-grid-2 large-block-grid-3"> 
-             <li><figure class="our-work-item">
-						<img src="img/ourwork/small/xtra-small.png" alt="img09"/>
+         <ul class="our-work small-block-grid-1 large-block-grid-3">
+             <li>
+             <figure class="our-work-item">
+						<img src="img/ourwork/small/lawn.png" alt="Lawn Perfection"/>
 						<figcaption>
-							<h2>Funny <span>Ming</span></h2>
-							<p>Ming sits in the corner the whole day. She's into crochet.</p>
+							<h2>Lawn <span>Perfection</span></h2>
+							<ul class="inline-list tags">
+                            <li>Web Design</li>
+                            <li>Lead Generation</li>    
+                            <li>Branding</li>
+                            <li>Marketing</</li>
+                            </ul>
 							<a href="#">View more</a>
-						</figcaption>			
+						</figcaption>		
 					</figure>
-             </li>
+             </li> 
              <li>
              <figure class="our-work-item">
 						<img src="img/ourwork/small/balle-balle.png" alt="img09"/>
 						<figcaption>
-							<h2>Balle Balle <span>Bistro</span></h2>
-							<p>We have transformed this Indian Restuarant</p>
+							<h2>Balle Balle  <span>Bistro</span></h2>
+							<ul class="inline-list tags">
+                            <li>Branding</li>
+                            <li>Web ReDesign</li> 
+                            <li>Social Strategy</li>
+                            </ul>
 							<a href="#">View more</a>
 						</figcaption>			
 					</figure>
              </li> 
-       <li><figure class="our-work-item">
-						<img src="img/ourwork/small/xtra-small.png" alt="img09"/>
+             <li><figure class="our-work-item">
+						<img src="img/ourwork/small/aqua-air.png" alt="Aqua Air Website"/>
 						<figcaption>
-							<h2>Funny <span>Ming</span></h2>
-							<p>Ming sits in the corner the whole day. She's into crochet.</p>
+							<h2>Aqua  <span>Air</span></h2>
+					        <ul class="inline-list tags">
+                            <li>Branding</li>
+                            <li>Web Design</li> 
+                            <li>Digital Marketing</li>
+                            <li>Event Management</li>  
+                             <li>Sales Process</li> 
+                            </ul>
 							<a href="#">View more</a>
-						</figcaption>			
+						</figcaption>  			
+					</figure> 
+             </li>  
+                    <li><figure class="our-work-item">
+						<img src="img/ourwork/small/xtra.png" alt="Xtra.Cleaning"/>
+						<figcaption>
+							<h2>Xtra <span>Cleaning</span></h2>
+							<ul class="inline-list tags">
+                            <li>Branding</li>
+                            <li>Web ReDesign</li> 
+                            <li>Product Imagery</li>
+                            </ul>
+							<a href="#">View more</a>
+						</figcaption>				
 					</figure>
              </li>
+              <li>
+             <figure class="our-work-item">
+						<img src="img/ourwork/small/rainbow.png" alt="Rainbow Vacumms"/>
+						<figcaption>
+							<h2>Rainbow <span>Vacumms</span></h2>
+							<ul class="inline-list tags">
+                            <li>Web Redesign</li>
+                            <li>Lead Generation</li> 
+                            <li>Branding</li>
+                            </ul>
+							<a href="#">View more</a>
+						</figcaption>		
+					</figure>
+             </li> 
              <li>
              <figure class="our-work-item">
-						<img src="img/ourwork/small/balleballe-small.png" alt="img09"/>
+						<img src="img/ourwork/small/itl.png" alt="img09"/>
 						<figcaption>
-							<h2>Funny <span>Ming</span></h2>
-							<p>Ming sits in the corner the whole day. She's into crochet.</p>
+							<h2>ITL <span>Translations</span></h2>
+							<ul class="inline-list tags">
+                            <li>Web Redesign</li>
+                            <li>Lead Generation</li>                       
+                            </ul>
 							<a href="#">View more</a>
-						</figcaption>			
+						</figcaption>		
 					</figure>
              </li> 
          </ul>
-         </div>        
-         
-     	
-        
-   
+         </div>
 
-       
-    <?php include_once "includes/footer-scripts.php" ?>
+        <section class="slope">
+            <div class="row content">
+                <div class="large-8 columns">
+                    <h3 class="button-align">Like our work? Have A Project? Get In Touch?</h3>
+                </div>
+                 <div class="large-4 columns">
+                     <a class="button">Have A Chat</a></h3>
+                </div>
+            </div>
+     
+        </section>
+            <section class="slope">
+     <div class="row content">
+      <div class="large-12 columns">
+            <h2>Meet Our <span class="orange-text">Team.</span></h2>
+        </div>
+         <div class="large-12 columns">
+            <ul class="our-team small-block-grid-2 large-block-grid-3">
+             <li>
+                <img src="img/team/james.png">
+                 <h3>James</h3>
+                 <p>Director of Making Shit <span class="orange-text">Happen</span></p>
+                
+                </li>
+                <li>
+                <img src="img/team/james.png">
+                 <h3>James</h3>
+                 <p>Director of Making Shit <span class="orange-text">Happen</span></p>
+                
+                </li>
+                <li>
+                <img src="img/team/james.png">
+                 <h3>James</h3>
+                 <p>Director of Making Shit <span class="orange-text">Happen</span></p>
+                
+                </li>
+             </ul>
+        </div>
+         </div>
+      </section>
+     <section class="slope">
+     <div class="row content padding-bottom-clear">
+      <div class="large-12 columns">
+            <h2>What We Have  <span class="orange-text">Been Doing.</span></h2>
+        </div>
+         <div class="large-6 columns">
+          <h3>Blog</h3> 
+        </div>
+          <div class="large-6 columns">
+           <h3>On Twitter</h3> 
+        </div>
+         </div>
+      </section>
+      <?php include_once "includes/footer.php" ?>
    </body>
 </html>

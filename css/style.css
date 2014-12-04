@@ -46,6 +46,13 @@ background:#fff;
     
 }
 
+.button-align
+{
+ 
+    margin-top:4%;
+    
+}
+
 /* #### FONTS #### */
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
@@ -259,11 +266,14 @@ section#hero
 	
 min-height:580px;
 
-padding-top:120px;
+padding-top:30px;
 
-background:url("/img/svg/pmp_office.svg") no-repeat scroll center 250px rgba(0, 0, 0, 0);
+/* background:url("/img/svg/pmp_office.svg") no-repeat scroll center 250px rgba(0, 0, 0, 0); */
+    background:url("/img/pmp-office.jpg") no-repeat scroll center 230px / 1200px 450px rgba(0, 0, 0, 0);
 
 background-size: 1200px 450px;
+    
+
 	
 }
 
@@ -451,13 +461,13 @@ figure figcaption > a {
 }
 
 figure h2 {
-	word-spacing: -0.15em;
-	font-weight: 300;
+	word-spacing: 0.15em;
+	font-weight: 100;
     font-size:2rem;
 }
 
 figure h2 span {
-	font-weight: 800;
+	font-weight: 600;
 }
 
 figure h2,
@@ -511,13 +521,32 @@ figure.our-work-item p {
 	transform: scale(1.5);
 }
 
+figure.our-work-item .tags > li {
+    background: none repeat scroll 0 0 #f8981f;
+    color: #fff;
+    margin: 10px;
+    padding: 5px;
+    font-size:0.8rem;
+}
+
+figure.our-work-item ul
+{
+padding: 0.5em;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+    
+}
+
 figure.our-work-item:hover h2 {
 	-webkit-transform: scale(0.9);
 	transform: scale(0.9);
 }
 
 figure.our-work-item:hover figcaption::before,
-figure.our-work-item:hover p {
+figure.our-work-item:hover p, figure.our-work-item:hover ul {
 	opacity: 1;
 	-webkit-transform: scale3d(1,1,1);
 	transform: scale3d(1,1,1);
@@ -530,6 +559,27 @@ figure.our-work-item:hover figcaption {
 figure.our-work-item:hover img {
 	opacity: 0.4;
 }
+
+/* OUR TEAM */
+.our-team li, our-team p, our-team a, our-team h3
+{
+ 
+    text-align:center;
+    
+}
+
+.our-team p
+{
+ 
+    font-size: 1.6rem;
+    font-weight: bold;
+    letter-spacing: -0.06em;
+
+    
+}
+
+
+
 
 
 

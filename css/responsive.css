@@ -9,6 +9,13 @@ h1, h2, h3, h4, ,h5 ,h6, p, li
 text-align:center; 
 	
 }
+    
+h2
+{
+     
+ font-size:2.4rem;
+        
+}
 
 header
 {
@@ -73,6 +80,12 @@ section#hero
 {
 
 min-height:0;
+    
+background-size:100%;
+    
+    background-position:0 295px;
+    
+    padding-bottom:100px;
 	
 }
 
@@ -92,6 +105,30 @@ padding:50px;
     
 .row.content {
     padding: 100px 80px 180px;
+}
+    
+    .toggle-topbar.menu-icon
+    {
+     
+        margin-right:20px;
+        
+    }
+    
+ .top-bar .toggle-topbar.menu-icon a span:after
+    {
+    box-shadow:0 0 0 3px white, 0 10px 0 3px white, 0 20px 0 3px white;
+        
+    width:30px;
+        
+    }
+    
+    .button-align
+{
+ 
+    margin-top:0%;
+    
+    text-align:center;
+    
 }
 
 }
