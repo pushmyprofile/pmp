@@ -53,6 +53,15 @@ background:#fff;
     
 }
 
+hr
+{
+ 
+    border-width:10px;
+    
+    border-color:#fff;
+    
+}
+
 /* #### FONTS #### */
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);

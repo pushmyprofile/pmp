@@ -132,3 +132,28 @@ padding:50px;
 }
 
 }
+
+
+/* ###### TABLETS STYLES ######## */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+
+    header
+    {
+     
+        padding:25px 20px;
+        
+    }
+.top-bar-section ul.right
+{
+   
+    margin-top:0px;
+    
+}
+    
+.top-bar-section li:not(.has-form) a:not(.button)
+{
+        
+     font-size:1.1em;   
+}
+    
+}

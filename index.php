@@ -44,10 +44,10 @@
       <div class="large-12 columns">
             <h2>Our <span class="orange-text">Work.</span></h2>
         </div>      
-         </div>
+         </div>   
          </section>
          <div class="content clear ">             
-         <ul class="our-work small-block-grid-1 large-block-grid-3">
+         <ul class="our-work small-block-grid-1 medium-block-grid-2 large-block-grid-3">
              <li>
              <figure class="our-work-item">
 						<img src="img/ourwork/small/lawn.png" alt="Lawn Perfection"/>
@@ -188,6 +188,14 @@
         </div>
          </div>
       </section>
-      <?php include_once "includes/footer.php" ?>
+      <section class="slope">
+     <div class="row content">          
+                <div class="large-12 columns">
+                    <h2>Have A Question? Call us On <span class="orange-text">03333 208 088</span></h3>
+                </div>
+                
+      </div>
+      </section>
+      <?php include_once "includes/footer.php" ?> 
    </body>
 </html>
