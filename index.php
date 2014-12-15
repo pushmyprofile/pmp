@@ -6,15 +6,15 @@
     <title>Web Design Cheshire | Push My Profile</title>
     <meta name="description" content="This is an example of a meta description. This will often show up in search results.">
     <?php include_once "includes/header-scripts.php" ?>
-  </head>
+  </head>   
   <body>
   <?php include_once "includes/header.php" ?>
-  <section id="hero"> 
+  <section id="hero">     
     <div class="row">
       <div class="large-12 columns">
       
         <h1 class="text-center hero">Digital Experts <span class="orange-text">Business Ethos.</span></h1>
-        <p class="lead">Business Minded Web Development and Brand Design all undr one roof!</p>
+          <p class="lead">We create brands, websites and marketing strategies with a focus on great design and <span class="orange-text">delivering</span> results.</p>
         <div class="center-button">
         <a class="button" href="#">Find Out More</a>
         </div>
@@ -105,11 +105,11 @@
 						</figcaption>				
 					</figure>
              </li>
-              <li>
+            <li>
              <figure class="our-work-item">
 						<img src="img/ourwork/small/rainbow.png" alt="Rainbow Vacumms"/>
 						<figcaption>
-							<h2>Rainbow <span>Vacumms</span></h2>
+							<h2>Rainbow <span>Vacuums</span></h2>
 							<ul class="inline-list tags">
                             <li>Web Redesign</li>
                             <li>Lead Generation</li> 
@@ -132,6 +132,45 @@
 						</figcaption>		
 					</figure>
              </li> 
+              <li><figure class="our-work-item">
+						<img src="img/ourwork/small/hyperion.png" alt="Hyperion Executuve Search"/>
+						<figcaption>
+							<h2>Hyperion Executive <span>Search</span></h2>
+							<ul class="inline-list tags">
+                            <li>Social Branding</li>
+                            <li>Marketing</li> 
+                            <li>PPC</li>
+                            <li>Adwords</li>
+                            </ul>
+							<a href="#">View more</a>
+						</figcaption>				
+					</figure>
+             </li>
+             <li><figure class="our-work-item">
+						<img src="img/ourwork/small/bladons.png" alt="Bladons"/>
+						<figcaption>
+							<h2>Bladons</h2>
+							<ul class="inline-list tags">
+                            <li>Website Re-design</li>
+                            <li>Branding</li> 
+                            <li>E-Commerce</li>                         
+                            </ul>
+							<a href="#">View more</a>
+						</figcaption>				
+					</figure>
+             </li>
+              <li><figure class="our-work-item">
+						<img src="img/ourwork/small/tony.png" alt="Tony Bailey Machinery"/>
+						<figcaption>
+							<h2>AML</h2>
+							<ul class="inline-list tags">
+                            <li>Website Re-design</li>
+                            <li>Branding</li>                         
+                            </ul>
+							<a href="#">View more</a>
+						</figcaption>				
+					</figure>
+             </li>
          </ul>
          </div>
 
@@ -152,23 +191,29 @@
             <h2>Meet Our <span class="orange-text">Team.</span></h2>
         </div>
          <div class="large-12 columns">
-            <ul class="our-team small-block-grid-2 large-block-grid-3">
+            <ul class="our-team small-block-grid-2 large-block-grid-4">
              <li>
                 <img src="img/team/james.png">
                  <h3>James</h3>
-                 <p>Director of Making Shit <span class="orange-text">Happen</span></p>
+                 <p>Managing <span class="orange-text">Director</span></p>
                 
                 </li>
                 <li>
-                <img src="img/team/james.png">
-                 <h3>James</h3>
-                 <p>Director of Making Shit <span class="orange-text">Happen</span></p>
+                <img src="img/team/nick.png">
+                 <h3>Nick</h3>
+                 <p>Creative <span class="orange-text">Director</span></p>
                 
                 </li>
                 <li>
-                <img src="img/team/james.png">
-                 <h3>James</h3>
-                 <p>Director of Making Shit <span class="orange-text">Happen</span></p>
+                <img src="img/team/mike.png">
+                 <h3>Mike</h3>
+                 <p>Head <span class="orange-text">Designer</span></p>
+                
+                </li>
+                <li>
+                <img src="img/team/lucy.png">
+                 <h3>Lucy</h3>
+                 <p>Client <span class="orange-text">Services</span></p>
                 
                 </li>
              </ul>
@@ -178,7 +223,7 @@
      <section class="slope">
      <div class="row content padding-bottom-clear">
       <div class="large-12 columns">
-            <h2>What We Have  <span class="orange-text">Been Doing.</span></h2>
+            <h2>What We've <span class="orange-text">Been Doing.</span></h2>
         </div>
          <div class="large-6 columns">
           <h3>Blog</h3> 
