@@ -1,5 +1,5 @@
  <footer class="slope">
-     <div class="row content">
+     <div class="row content padding-bottom-none">
          <div class="large-5 columns">
              <div class="row">
          <h2>Call Us</h2> 
@@ -15,7 +15,7 @@
          <h2>Send Us A Message</h2>  
         </div>
         </div>
-      <div class="content">
+      <div class="content reduced-padding">
     <hr />    
       <div class="large-7 columns">        
          <p><?php echo date("Y"); ?>&copy; Push My Profile Ltd | Company Number 09160051</p> 

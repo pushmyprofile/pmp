@@ -46,6 +46,12 @@ background:#fff;
     
 }
 
+.padding-bottom-none
+{
+ 
+    padding-bottom:0 !important;
+}
+
 .button-align
 {
  
@@ -61,6 +67,8 @@ hr
     border-color:#fff;
     
 }
+
+
 
 /* #### FONTS #### */
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500,700);
@@ -392,6 +400,13 @@ margin:0 auto;
 
 padding:130px 100px 250px 100px;
 	
+}
+
+.content.reduced-padding
+{
+   
+    padding:0px 100px 10px !important;
+    
 }
 
 
