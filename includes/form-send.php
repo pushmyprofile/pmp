@@ -3,7 +3,7 @@ $errorfields = array();
 $missingfields = array();
 
 //check form has been submitted
-if (isset($_POST['bookatable'])) {
+if (isset($_POST['sendusamessage'])) {
 	
 	//Process Form
 	$to = 'nick@pushmyprofile.co.uk';

@@ -157,3 +157,14 @@ padding:50px;
 }
     
 }
+
+/* ###### EXTRA LARGE SCREEN STYLES ######## */
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { 
+.row.content
+{
+  
+padding: 130px 40px 180px;    
+    
+}
+    
+}

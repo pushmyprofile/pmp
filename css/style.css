@@ -30,6 +30,8 @@ background:#fff;
 	
 }
 
+/* MISC CLASSES */
+
 .clear
 {
  
@@ -73,6 +75,41 @@ hr
 /* #### FONTS #### */
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+
+/* #### ICONS #### */
+@font-face {
+	font-family: "Flaticon";
+	src: url("icons/flaticon.eot");
+	src: url("icons/flaticon.eot#iefix") format("embedded-opentype"),
+	url("icons/flaticon.woff") format("woff"),
+	url("icons/flaticon.ttf") format("truetype"),
+	url("icons/flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 40px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-facebook55:before {
+	content: "\e000";
+}
+.flaticon-google24:before {
+	content: "\e001";
+}
+.flaticon-twitter20:before {
+	content: "\e002";
+}
+
+.flaticon-facebook55, .flaticon-google24, .flaticon-twitter20
+{
+ 
+    font-size:40px !important;
+    
+}
+
 
 
 /* #### GENERAL STYLES ##### */
@@ -419,14 +456,6 @@ padding: 100px 40px 180px;
 	
 }
 
-.row.content
-{
-  
-padding: 130px 40px 180px;    
-    
-}
-
-
 .our-work ul, .our-work li
 {    
     padding:0;
@@ -608,6 +637,32 @@ figure.our-work-item:hover img {
     letter-spacing: -0.06em;
 
     
+}
+
+/* FORMS */
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+    border: 5px solid #fff;
+    font-size: 1.1rem;
+    height: 3rem;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="color"]:focus, textarea:focus
+{
+  
+    border-color:#F8981D;
+    
+}
+
+textarea
+{
+ 
+    height:10rem;
+    
+}
+
+label {
+    color: #fff;
+    font-size: 1.4rem;
 }
 
 
