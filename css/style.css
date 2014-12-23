@@ -419,6 +419,14 @@ padding: 100px 40px 180px;
 	
 }
 
+.row.content
+{
+  
+padding: 130px 40px 180px;    
+    
+}
+
+
 .our-work ul, .our-work li
 {    
     padding:0;
@@ -434,7 +442,7 @@ figure {
 	overflow: hidden;
 	margin: 0px 1%;
 	/* min-width: 320px; */
-	max-width: 480px;
+	max-width: 600px;
 	max-height: 360px;
 	width: 100%;
 	height: auto;

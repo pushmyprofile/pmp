@@ -221,7 +221,7 @@
         </div>
          </div>
       </section>
-     <section class="slope">
+    <!-- <section class="slope">
      <div class="row content padding-bottom-clear">
       <div class="large-12 columns">
             <h2>What We've <span class="orange-text">Been Doing.</span></h2>
@@ -241,7 +241,7 @@
                 </div>
                 
       </div>
-      </section>
+      </section>-->
       <?php include_once "includes/footer.php" ?> 
    </body>
 </html>
