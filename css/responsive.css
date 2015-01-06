@@ -104,7 +104,7 @@ padding:50px;
 }
     
 .row.content {
-    padding: 100px 80px 180px;
+    padding: 50px 80px 100px;
 }
     
     .toggle-topbar.menu-icon
@@ -130,6 +130,100 @@ padding:50px;
     text-align:center;
     
 }
+    
+    nav.top-bar
+    {
+     
+        transition: height .33s ease;
+        
+    }
+    
+    .top-bar.expanded
+    {
+     
+            transition: height .33s ease;
+        
+        height:380px;
+        
+    }
+    
+    .top-bar .name h1 a {
+    color: white;
+    display: block;
+    font-size: 24px;
+    font-weight: normal;
+    padding: 5px 25px;
+    width: 75%;
+}
+    
+.top-bar.expanded .title-area
+{
+        
+    background:#22A5D2;
+    
+}
+    
+figure
+    {
+    
+        max-height:250px;
+    
+}
+    
+    figure h2
+    {
+     
+        font-size:1.6rem;
+        
+    }
+    
+    .top-bar-section li:not(.has-form) a:not(.button) {
+    background: none repeat scroll 0 0 #22a5d2;
+    font-size: 1.4em;
+    padding: 15px 25px;
+}
+    
+    .slope
+    {
+     
+        margin:0 -60px;
+        
+    }
+    
+    .mobile-content {
+    padding: 20px 80px 200px !important;
+}
+    
+    figure.our-work-item ul {
+    opacity: 1;
+    padding: 0;
+        transform:scale(1);
+
+}
+    
+    figure.our-work-item .tags > li
+    {
+     
+        
+        margin:2px;
+    }
+    
+    footer .content {
+    padding: 10px;
+}
+    
+    .content p {
+    font-size: 10px;
+}
+    
+    footer .inline-list > li {
+    display: block;
+    font-size: 12px;
+    text-align: left;
+    width: 100%;
+}
+    
+  
 
 }
 

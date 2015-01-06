@@ -17,7 +17,7 @@
         <h1 class="text-center hero">Digital Experts <span class="orange-text">Business Ethos.</span></h1>
           <p class="lead">We create brands, websites and marketing strategies with a focus on great design and <span class="orange-text">delivering</span> results.</p>
         <div class="center-button">
-        <a class="button" href="#">Find Out More</a>
+        <a class="button" href="#expertise">Find Out More</a>
         </div>
       </div>
     </div>
@@ -25,7 +25,7 @@
     <div class="container">
     <section class="slope">
      <div class="row content">
-      <div class="large-12 columns">
+      <div id="expertise" class="large-12 columns">
        <h2>Our <span class="orange-text">Expertise.</span></h2>
 	        <ul class="small-block-grid-3"> 
             <li>
@@ -175,13 +175,13 @@
          </ul>
          </div>
 
-        <section class="slope">
-            <div class="row content">
+        <section id="haveachat" class="slope">
+            <div class="row content mobile-content">
                 <div class="large-8 columns">
                     <h3 class="button-align">Like our work? Have A Project? Get In Touch?</h3>
                 </div>
                  <div class="large-4 columns">
-                     <a class="button">Have A Chat</a></h3>
+                     <a class="button" href="#footer">Have A Chat</a></h3>
                 </div>
             </div>
      
