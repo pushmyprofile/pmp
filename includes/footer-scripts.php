@@ -32,6 +32,28 @@
 			wall.container.find('.brick img').load(function() {
 				wall.fitWidth();
 			});
+    
+    var webdesignwall = new freewall("#webdesignwall");
+			webdesignwall.reset({
+				selector: '.website',
+				animate: true,
+				cellW: 150,
+				cellH: 'auto',
+				onResize: function() {
+					webdesignwall.fitWidth();
+				}
+			});
+			
+			webdesignwall.container.find('.website img').load(function() {
+				webdesignwall.fitWidth();
+			});
+    
+    
+  
+    
+
+			
+			
 
 
 		</script>

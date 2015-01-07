@@ -1331,7 +1331,7 @@ label {
 }
 
 
-/* Gallery Layout */
+/* Branding Gallery Layout */
 .brick {
 
 	color: #333;
@@ -1351,9 +1351,17 @@ label {
 
 .free-wall {
 				
-			}
-			.brick {
+}
+
+.brick {
 				width: 221.2px;
+                
+			}
+
+.website {
+				width: 450px;
+    padding:0;
+    margin:0;
                 
 			}
 			.info {
@@ -1365,6 +1373,25 @@ label {
 				padding: 0px;
 				display: block;
 			}
+
+
+.brick figure.our-work-item .tags > li, .website figure.our-work-item .tags > li {
+    background:none;
+    color: #fff;
+    font-size: 1rem;
+    margin: 50% 10px 10px;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+} 
+
+#webdesignwall .our-work-item {
+    background: none repeat scroll 0 0 #fff;
+}
+
+#webdesignwall .our-work-item:hover {
+    background: none repeat scroll 0 0 #030c17;
+}
 
 
 

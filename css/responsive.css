@@ -216,14 +216,18 @@ figure
     font-size: 10px;
 }
     
-    footer .inline-list > li {
+    footer .reduced-padding .inline-list > li {
     display: block;
     font-size: 12px;
     text-align: left;
     width: 100%;
 }
     
-  
+    .social-icons .inline-list li {
+    margin-left: 0;
+}
+    
+
 
 }
 

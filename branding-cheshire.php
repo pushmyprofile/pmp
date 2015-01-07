@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Branding In Cheshire | Push My Profile</title>
-    <meta name="description" content="We are experts in brand identity and create new brands to get the best out of yor business. ">
+    <meta name="description" content="Looking for Branding In Cheshire? We are experts in brand identity and create new brands to get the best out of your business. ">
     <?php include_once "includes/header-scripts.php" ?>
   </head>   
   <body id="hero">
@@ -23,21 +23,57 @@
      <div class="row content">
 
           <div id="freewall" class="free-wall">
-          <div class="brick">
-		        <img src="img/ourwork/branding/aqua-air.png" />
-          </div>         
+                  <div class="brick">
+                      <figure class="our-work-item">
+						<img src="img/ourwork/branding/aqua-air-2.png"/> 
+						<figcaption>
+		         	        <ul class="inline-list tags">
+                            <li>View More</li>
+                            
+                            </ul>
+							<a href="#">View more</a>
+						</figcaption>  			
+					</figure>
+		        
+          </div>
+              <div class="brick">
+		       <img src="img/ourwork/branding/revup.png"/>
+          </div>
+              
+             <div class="brick">
+		       <img src="img/ourwork/branding/lawn-perfection.png"/>
+          </div>   
           <div class="brick">
 		        <img src="img/ourwork/branding/bladons.png"/>
+          </div>             
+                 <div class="brick">
+		       <img src="img/ourwork/branding/jos.png"/> 
           </div>
-          <div class="brick">
+               <div class="brick">
+		       <img src="img/ourwork/branding/rockwell.png"/>
+          </div>
+                
+               <div class="brick">
+		        <img src="img/ourwork/branding/aqua-air.png" />
+          </div>  
+           
+                 <div class="brick">
 		        <img src="img/ourwork/branding/drylogs.png"/>
           </div>
-                        <div class="brick">
+                     
+               
+               <div class="brick">
 		       <img src="img/ourwork/branding/gentlemanwatchcollector.png"/>
           </div>
-                  <div class="brick">
-		       <img src="img/ourwork/branding/lawn-perfection.png"/>
+                 
+               <div class="brick">
+		       <img src="img/ourwork/branding/cheshire-trees.png"/>
           </div>
+               <div class="brick">
+		       <img src="img/ourwork/branding/cushtie-cushions.png"/>
+          </div>
+            
+               
           </div>
          </div>           
         

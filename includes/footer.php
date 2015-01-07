@@ -10,7 +10,7 @@
           <h4>Monday - Friday: <span class="orange-text">8:30am - 6:00pm</span></h4>
           <h4>Saturday: <span class="orange-text">9:00am - 12:30pm</span></h4>
              </div>
-             <div class="">
+             <div class="social-icons">
              <h2>Social</h2>  
              <ul class="inline-list">
                  <li><a href="https://www.facebook.com/pushmyprofile" target="_blank"><i class="flaticon-facebook55"></i></a></li>
