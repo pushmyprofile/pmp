@@ -906,7 +906,7 @@ padding:130px 100px 250px 100px;
 
 
 
-padding: 100px 40px 180px;
+padding: 100px 0px 180px;
 
 	
 
@@ -1094,7 +1094,7 @@ figure.our-work-item {
 
 figure.our-work-item img {
 
-	opacity: 0.9;
+	opacity: 1;
 
 	-webkit-transition: opacity 0.35s;
 
@@ -1354,15 +1354,26 @@ label {
 }
 
 .brick {
-				width: 221.2px;
+				width: 261.2px;
                 
 			}
 
 .website {
-				width: 450px;
+
     padding:0;
     margin:0;
+    width:600px;
+    
+
                 
+			}
+
+.website img {
+				margin: 0px;
+				padding: 0px;
+				display: block;
+ 
+    
 			}
 			.info {
 				padding: 15px;
@@ -1391,6 +1402,20 @@ label {
 
 #webdesignwall .our-work-item:hover {
     background: none repeat scroll 0 0 #030c17;
+}
+
+#webdesignwall figure
+{
+ 
+    max-height:600px;
+    
+}
+
+#webdesignwall
+{
+ 
+    min-height:500px;
+    
 }
 
 
