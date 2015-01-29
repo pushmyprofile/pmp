@@ -1,0 +1,98 @@
+/* Stage */
+
+#stage {
+    width: 1024px;
+    height: 400px;
+}
+
+/* Elements */
+
+#logo {
+    transform-origin: 208px 156px;
+}
+#company-information {
+    transform-origin: 660px 156px;
+}
+
+/* Intro Animation */
+@keyframes blue-border {
+    0% {
+        transform: translateX(220px);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+        transform: translateX(220px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+@keyframes title-bg {
+    0% {
+        transform: translateX(-220px);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+        transform: translateX(-220px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes grow-y {
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+@keyframes grow-x {
+    0% {
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+@keyframes grow {
+    0% {
+        transform: scale(0, 0);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+/* Anmiation Sequence */
+
+.svgLoaded #logo {
+    animation: fade-in 0.5s ease-in-out;
+}
+.svgLoaded #company-information {
+    animation: fade-in 0.5s ease-in-out 0.75s;
+    animation-fill-mode: backwards;
+}
+.svgLoaded #blue-border {
+    animation: left-brace-intro 1s ease-in-out 0.25s;
+    animation-fill-mode: backwards;
+}
+.svgLoaded #title-bg {
+    animation: right-brace-intro 1s ease-in-out 0.25s;
+    animation-fill-mode: backwards;
+}
+.svgLoaded #title {
+    animation: grow-y 0.5s ease-in-out 1.25s;
+    transform-origin: 512px 300px;
+    animation-fill-mode: backwards;
+}

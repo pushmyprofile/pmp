@@ -85,6 +85,23 @@
      
      </script>
 
+<script>
+
+$(function(){
+ 
+    $("#stage").load('../svg/lawn-perfection-infographic.svg',function(response){
+ 
+        $(this).addClass("svgLoaded");
+         
+        if(!response){
+            // Error loading SVG!
+            // Make absolutely sure you are running this on a web server or localhost!
+        }
+ 
+    });
+});
+
+    </script>
   
 
 

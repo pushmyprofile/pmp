@@ -21,14 +21,9 @@
       <div class="container">        
       <section class="slope">
      <div class="row content">
-         <div class="large-3 columns">
-            <img src="img/marketing/lawn-perfection-logo.png" alt="Lawn Perfection Marketing" />
-              <h3 class="text-center">Lawn Perfection</h3>
-        </div> 
-      <div class="large-9 columns">
-           
-        </div>      
-         </div>   
+         <div class="large-12 columns">
+         <div id="stage"> <!-- Fallback Text Content can go here --> </div>
+         </div>
             </section>
       </div>
           
