@@ -24,8 +24,9 @@
          <div class="large-12 columns">
          <div id="stage"> <!-- Fallback Text Content can go here --> </div>
          </div>
+          </div>
             </section>
-      </div>
+     
           
           <?php include_once "includes/footer.php" ?> 
    </body>

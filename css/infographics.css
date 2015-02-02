@@ -1,17 +1,111 @@
+/* Import Fonts */
+@font-face {
+    font-family: 'OpenSans-CondensedLight';
+    src: url('fonts/opensans-condlight-webfont.eot');
+    src: url('fonts/opensans-condlight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-condlight-webfont.woff2') format('woff2'),
+         url('fonts/opensans-condlight-webfont.woff') format('woff'),
+         url('fonts/opensans-condlight-webfont.ttf') format('truetype'),
+         url('fonts/opensans-condlight-webfont.svg#open_sanscondensed_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Ubuntu-Bold';
+    src: url('fonts/ubuntu-b-webfont.eot');
+    src: url('fonts/ubuntu-b-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ubuntu-b-webfont.woff2') format('woff2'),
+         url('fonts/ubuntu-b-webfont.woff') format('woff'),
+         url('fonts/ubuntu-b-webfont.ttf') format('truetype'),
+         url('fonts/ubuntu-b-webfont.svg#ubuntubold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 /* Stage */
 
 #stage {
-    width: 1024px;
-    height: 400px;
+    width: 100%;
+    height: 650px;
 }
 
 /* Elements */
 
-#logo {
-    transform-origin: 208px 156px;
+#fb {
+    transform-origin: 172px 200px;
 }
-#company-information {
-    transform-origin: 660px 156px;
+#fb-badge {
+    transform-origin: 170px 365px;
+}
+
+#fb-title {
+    transform-origin: 171px 46px;
+}
+#fb-details {
+    transform-origin: 165px 53px;
+}
+
+#google {
+    transform-origin:265px 200px;
+}
+#google-badge {
+    transform-origin: 340px 365px;
+}
+
+#google-title {
+    transform-origin: 235px 46px;
+}
+#google-details {
+    transform-origin: 165px 53px;
+}
+
+#seo {
+    transform-origin:457px 200px;
+}
+#seo-badge {
+    transform-origin: 510px 365px;
+}
+
+#seo-title {
+    transform-origin: 454px 46px;
+}
+#seo-details {
+    transform-origin: 165px 53px;
+}
+
+#googlelocal {
+    transform-origin:457px 200px;
+}
+#googlelocal-badge {
+    transform-origin: 680px 365px;
+}
+
+#googlelocal-title {
+    transform-origin: 454px 46px;
+}
+#googlelocal-details {
+    transform-origin: 165px 53px;
+}
+
+#show {
+    transform-origin:457px 200px;
+}
+#show-badge {
+    transform-origin: 825px 365px;
+}
+
+#show-title {
+    transform-origin: 454px 46px;
+}
+#show-details {
+    transform-origin: 165px 53px;
 }
 
 /* Intro Animation */
@@ -49,6 +143,14 @@
         opacity: 1;
     }
 }
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
 @keyframes grow-y {
     0% {
         transform: scaleY(0);
@@ -74,25 +176,50 @@
     }
 }
 
+/* Hover Animations */
+
+[id$=badge] { /* Any element with an id that ends in "badge" */
+    transform: scale(0.6, 0.6);
+}
+[id$=title] {
+    transform: scale(1.8) translate(0px, 48px);
+    display:none;
+}
+[id$=details] {
+    transform: scale(0, 0);
+}
+
+#timeline > g:hover [id$=badge], #timeline > g:hover [id$=details] {
+    transform: scale(1, 1);
+}
+#timeline > g:hover [id$=title] {
+    transform: scale(1) translate(0px, 0px);
+    display:block;
+}
+[id$=badge], [id$=title], [id$=details] {
+    transition: transform 0.25s ease-in-out;
+}
+#timeline > g:hover [id$=icon] {
+    animation: fade-out;
+    display:none;
+}
+
 /* Anmiation Sequence */
 
 .svgLoaded #logo {
     animation: fade-in 0.5s ease-in-out;
 }
-.svgLoaded #company-information {
-    animation: fade-in 0.5s ease-in-out 0.75s;
-    animation-fill-mode: backwards;
-}
-.svgLoaded #blue-border {
-    animation: left-brace-intro 1s ease-in-out 0.25s;
-    animation-fill-mode: backwards;
-}
-.svgLoaded #title-bg {
-    animation: right-brace-intro 1s ease-in-out 0.25s;
-    animation-fill-mode: backwards;
-}
-.svgLoaded #title {
-    animation: grow-y 0.5s ease-in-out 1.25s;
+
+
+.svgLoaded #intro-text {
+    animation: grow-y 0.8s ease-in-out 1.25s;
     transform-origin: 512px 300px;
     animation-fill-mode: backwards;
 }
+
+.svgLoaded #line {
+    animation: grow-y 0.8s ease-in-out 1.25s;
+    transform-origin: 512px 300px;
+    animation-fill-mode: backwards;
+}
+
