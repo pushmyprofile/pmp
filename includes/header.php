@@ -14,8 +14,8 @@
             <li id="branding"> <a href="branding-cheshire.php">Branding</a></li>
             <li id="webdesign"> <a href="web-design-cheshire.php">Web Design</a></li>
             <li id="marketing"> <a href="digital-marketing-cheshire.php">Digital Marketing</a></li>
-            <li id="hireus"> <a class="orange" href="#">Hire Us</a></li>
+            <li id="hireus"> <a class="orange" href="hire-us.php">Hire Us</a></li>
         </ul> 
      </section> 
 </nav>
-</header>
+</header>   
