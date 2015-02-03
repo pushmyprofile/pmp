@@ -24,7 +24,7 @@
           </div>
          <div class="large-4 columns">
              <img src="svg/email.svg" alt="Get In Touch By email" />
-            <h3 class="text-center">E-MAIL</h3>        
+            <h3 class="text-center">CONTACT FORM</h3>        
           </div>
          <div class="large-4 columns">
              <img src="svg/office.svg" alt="Get In Touch By email" />
@@ -36,7 +36,7 @@
       <div class="container">        
       <section class="slope">
      <div class="row content">
-         
+            <h2>Your Project Details</h2> 
             </section>
      
           
