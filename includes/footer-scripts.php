@@ -68,6 +68,38 @@
 			});
 </script>
 
+
+<script src="js/readmore.min.js"></script>
+<script>
+$('.further-info').readmore({
+  speed: 175,
+  lessLink: '',
+    moreLink: '<div class="button-center-wrapper init-buttons"><div class="button-center-wrapper-inner"><a class="text-center button" href="#">Read More</a><a class="test" href="#freewall">See More</a</div>',
+    collapsedHeight: 0,
+    beforeToggle: function(trigger, element, expanded) {
+      
+        
+          if(trigger)
+          {
+              
+           $('.further-info').readmore.stop();  
+              
+  
+           
+           
+       }
+    }, 
+    afterToggle: function(trigger, element, expanded) {
+    if( expanded) { 
+      $('.init-buttons').hide();
+    }
+    }
+});
+    
+
+</script>
+
+
   <script class="rs-file" src="js/easing.js"></script>
 <script type="text/javascript">
  $(function() {
@@ -89,7 +121,25 @@
 
 $(function(){
  
-    $("#stage").load('../svg/lawn-perfection-infographic.svg',function(response){
+    $("#lawnperfection").load('../svg/lawn-perfection-infographic.svg',function(response){
+ 
+        $(this).addClass("svgLoaded");
+         
+        if(!response){
+            // Error loading SVG!
+            // Make absolutely sure you are running this on a web server or localhost!
+        }
+ 
+    });
+});
+
+    </script>
+
+<script>
+
+$(function(){
+ 
+    $("#aquaair").load('../svg/aqua-air.svg',function(response){
  
         $(this).addClass("svgLoaded");
          

@@ -122,6 +122,21 @@ background:#fff;
 
 }
 
+.button-center-wrapper
+{
+    
+text-align:center;   
+    
+}
+
+
+.button-center-wrapper-inner {
+    
+width: 60%;
+    
+margin: 0px auto 0px auto;
+    
+}
 
 
 hr

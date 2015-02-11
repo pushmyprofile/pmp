@@ -43,7 +43,7 @@
 
 /* Stage */
 
-#stage {
+#lawnperfection, #aquaair {
     width: 100%;
     height: 850px;
 }
@@ -64,6 +64,22 @@
     transform-origin: 165px 53px;
 }
 
+/* Elements */
+
+#linkedin {
+    transform-origin: 172px 200px;
+}
+#linkedin-badge {
+    transform-origin: 170px 365px;
+}
+
+#linkedin-title {
+    transform-origin: 171px 46px;
+}
+#linkedin-details {
+    transform-origin: 165px 53px;
+}
+
 #google {
     transform-origin:265px 200px;
 }
@@ -76,6 +92,20 @@
 }
 #google-details {
     transform-origin: 165px 53px;
+}
+
+#aquaair #web {
+    transform-origin:465px 200px;
+}
+#aquaair #web-badge {
+    transform-origin: 395px 365px;
+}
+
+#aquaair #web-title{
+    transform-origin: 460px 46px;
+}
+#aquaair #web-details{
+    transform-origin: 460px 53px;
 }
 
 #seo {
@@ -119,6 +149,39 @@
 #show-details {
     transform-origin: 165px 53px;
 }
+
+
+/* Aqua - Air */
+
+#aquaair #show {
+    transform-origin:457px 200px;
+}
+#aquaair #show-badge {
+    transform-origin: 600px 365px;
+}
+
+#aquaair #show-title {
+    transform-origin: 454px 46px;
+}
+#aquaair #show-details {
+    transform-origin: 165px 53px;
+}
+
+#products {
+    transform-origin:457px 200px;
+}
+#products-badge {
+    transform-origin: 825px 365px;
+}
+
+#products-title {
+    transform-origin: 454px 46px;
+}
+#products-details {
+    transform-origin: 165px 53px;
+}
+
+
 
 /* Intro Animation */
 @keyframes blue-border {

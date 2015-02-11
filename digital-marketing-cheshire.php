@@ -22,11 +22,30 @@
       <section class="slope">
      <div class="row content">
          <div class="large-12 columns">
-         <div id="stage"> <!-- Fallback Text Content can go here --> </div>
+         <div id="lawnperfection"> <!-- Fallback Text Content can go here --> </div>
          </div>
           </div>
             </section>
+           <section id="haveachat" class="slope">
+            <div class="row content mobile-content">
+                <div class="large-8 columns">
+                    <h3 class="button-align">Want to see how we can help you? Get In Touch?</h3>
+                </div>
+                 <div class="large-4 columns">
+                     <a class="button" href="#footer">Have A Chat</a></h3>
+                </div>
+            </div>
      
+        </section>
+          <section class="slope">
+           <div class="row content">
+         <div class="large-12 columns">
+         <div id="aquaair"> <!-- Fallback Text Content can go here --> </div>
+         </div>
+          </div>
+            </section>
+          
+    
           
           <?php include_once "includes/footer.php" ?> 
    </body>

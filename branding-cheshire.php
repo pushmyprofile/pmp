@@ -14,7 +14,13 @@
     <div class="row">
       <div class="large-12 columns">      
         <h1 class="text-center hero">Branding</h1>
-          <p class="lead">Fresh concept or re-brand, creating brands is something we enjoy. We have worked with companies of all diffirent sizes, look below- we made them all.</p>        
+          <p class="lead">Fresh concept or re-brand, creating brands is something we enjoy. We have worked with companies of all diffirent sizes, look below- we made them all.</p>  
+          <div class="further-info">
+          <p class="text-center">
+          Branding can take different forms and there is a lot to think. You might be starting a new brand or your company needs a complete rebrand. Starting with a logo and colour scheme is just the start. Once these have been agreed they must be applied across a huge range of media including websites, business stationary, signage, vehicle writing, product packaging, brochures, uniforms – depending on your company this can be a long list! Rest assured we can have it all designed and branded for you taking the hassle out of brand creation or rebranding.
+          </p>
+              <div class="button-center-wrapper"><div class="button-center-wrapper-inner"><a class="text-center button" href="#freewall">Now lets See Some Work</a></div>
+          </div>
       </div>
     </div>
     </section>
