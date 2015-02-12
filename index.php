@@ -38,6 +38,17 @@
             	<h3 class="text-center">Digital Marketing</h3></li> 
             </ul> 
             </div>
+         
+          <div class="further-info">
+          <p class="text-center">
+         Our Cheshire Digital Agency means we are on hand to work with businesses across the Northwest, offering a completely personal service whether it’s discussing a website, branding, marketing or business strategy. Or all of the above! We are a hard working boutique agency that take a great pride in our work and seeing our clients prosper. If you think you might have a project we can work on visit our Hire Us section to see if we stack up!
+          </p>
+              
+              <div class="button-center-wrapper"><div class="button-center-wrapper-inner"><a class="text-center button seemore" href="#our-work">Now lets See Some Work</a></div>
+          </div>
+              
+      </div>
+          <div class="large-6 columns init-button"><a class='text-center button left seemore' href='#our-work'>See More</a></div>
             </div>
     </section>
      <section class="slope">
@@ -47,7 +58,7 @@
         </div>      
          </div>   
          </section>
-         <div class="content clear ">             
+         <div class="content clear " id="our-work">             
          <ul class="our-work small-block-grid-1 medium-block-grid-2 large-block-grid-3">
              <li>
              <figure class="our-work-item">

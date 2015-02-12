@@ -71,32 +71,30 @@
 
 <script src="js/readmore.min.js"></script>
 <script>
+     
 $('.further-info').readmore({
   speed: 175,
-  lessLink: '',
-    moreLink: '<div class="button-center-wrapper init-buttons"><div class="button-center-wrapper-inner"><a class="text-center button" href="#">Read More</a><a class="test" href="#freewall">See More</a</div>',
+    lessLink: '',
+    moreLink: '<div class="large-6 columns init-button"><a class="text-center button right" href="#">Read More</a></div>',
     collapsedHeight: 0,
     beforeToggle: function(trigger, element, expanded) {
       
-        
-          if(trigger)
-          {
-              
-           $('.further-info').readmore.stop();  
+       
+           
+          
               
   
            
-           
-       }
+     
     }, 
     afterToggle: function(trigger, element, expanded) {
     if( expanded) { 
-      $('.init-buttons').hide();
+      $('.init-button').hide();
     }
     }
 });
     
-
+  
 </script>
 
 
@@ -104,7 +102,7 @@ $('.further-info').readmore({
 <script type="text/javascript">
  $(function() {
 	 
-	 $('#hero a, #haveachat a').bind('click',function(event){
+	 $('#hero a, #haveachat a, #ourwork a, .seemore').bind('click',function(event){
         var $anchor = $(this);
  
         $('html, body').stop().animate({

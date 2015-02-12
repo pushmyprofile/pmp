@@ -227,6 +227,44 @@ figure
     margin-left: 0;
 }
     
+    .further-info + [data-readmore-toggle]
+{
+    
+ width:100% !important;   
+    
+}
+    button, .button
+    {
+     
+        width:100%;
+        
+    }
+    
+    /* ###### MARKETING ######### */
+
+.marketing-mobile
+{
+ 
+ padding:0px !important;   
+    
+}
+
+.marketing-mobile p , .marketing-mobile h4
+{
+ 
+    color:#fff !important;
+    
+}
+
+.facebook
+{
+    
+    background:#507CBE;
+    
+    border:3px solid 4972AD;
+    
+}
+    
 
 
 }
@@ -253,6 +291,8 @@ figure
         
      font-size:1.1em;   
 }
+    
+
     
 }
 

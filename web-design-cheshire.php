@@ -16,6 +16,17 @@
         <h1 class="text-center hero">Web Design</h1>
           <p class="lead">The first port of call for most of your customers will be your company website. Your 24 hours sales person loaded with information on your products and services and we make sure it looks good, sounds good and works across every device.</p>    
       </div>
+        <div class="further-info">
+          <p class="text-center">
+          We take on all aspects of Web Design – new websites, website redesigns, e-commerce, mobile optimized, responsive websites. We have the skills to make it work across all platforms and look pretty slick too! 
+          </p>
+              
+              <div class="button-center-wrapper"><div class="button-center-wrapper-inner"><a class="text-center button" href="#webdesignwall">See some of our work</a></div>
+          </div>
+              
+      </div>
+          <div class="large-6 columns init-button"><a class='text-center button left' href='#webdesignwall'>See More</a></div>
+    </div>
     </div>
     </section>
     <div class="container">
