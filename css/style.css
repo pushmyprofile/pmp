@@ -148,17 +148,11 @@ margin: 0px auto 0px auto;
 
 hr
 
-{
+{ 
 
- 
+    border-width:10px;    
 
-    border-width:10px;
-
-    
-
-    border-color:#fff;
-
-    
+    border-color:#fff;    
 
 }
 
@@ -396,12 +390,19 @@ text-align:center;
 
 {
 
-
-
 color:#F8981D;
 
-	
+}
 
+address p
+{
+    
+font-size:1.4375rem;
+    
+font-style:normal;
+    
+margin-bottom:6px;
+    
 }
 
 
@@ -838,6 +839,13 @@ transform: rotate (5deg);
 
 	
 
+}
+
+.slope.find-us:nth-child(2n+1)
+{
+ 
+    padding:-280px;
+    
 }
 
 
@@ -1362,6 +1370,29 @@ label {
 
 }
 
+[data-abide] .error small.error, [data-abide] .error span.error, [data-abide] span.error, [data-abide] small.error
+{
+ 
+    background:#F8981D;
+    
+}
+
+select
+{
+ 
+    font-size:1.2rem;
+    
+    font-weight:bold;
+    
+}
+
+.white-bg-form label
+{
+ 
+    color:#666666;
+    
+}
+
 
 
 /* ###### BRANDING GALLERY ######### */
@@ -1395,7 +1426,7 @@ label {
 
     padding:0;
     margin:0;
-    width:600px;
+    width:48% !important;
     
 
                 
@@ -1441,6 +1472,7 @@ label {
 {
  
     max-height:600px;
+    max-width:100%;
     
 }
 

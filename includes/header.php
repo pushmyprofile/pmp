@@ -1,4 +1,5 @@
-<header>
+<?php include_once 'functions.php'; ?>
+<header>   
 <nav class="top-bar" data-topbar role="navigation"> 
 	<ul class="title-area"> 
     	<li class="name show-for-medium-up"><a href="#"><img src="img/logo/pmp-logo.png" alt="Push My Profile Logo" /></a></li> 
@@ -17,5 +18,5 @@
             <li id="hireus"> <a class="orange" href="hire-us.php">Hire Us</a></li>
         </ul> 
      </section> 
-</nav>
+</nav> 
 </header>   

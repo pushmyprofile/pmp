@@ -19,8 +19,27 @@
              </ul>           
              </div>
          </div>
+          
+         <?php if ($currentpage == "http://pushmyprofile.devserver.xyz/hire-us.php") { ?>
+          
+       
          <div class="large-7 columns">
-         <h2>Send Us A Message</h2>  
+           <h2>Our Address</h2>
+           <address>
+               <p>Push My Profile</p>
+               <p>Denifield Smithy</p>
+               <p>Chester Road</p>
+               <p>WA16 6RP</p>
+               </address>
+         </div>
+      
+
+       <?php } else { ?>
+     
+         <div class="large-7 columns">
+         <h2>Send Us A Message</h2>
+             <h2><?php echo $pageURL; ?></h2>
+              
          <form data-abide id="sendusamessage" method="post" action="#">
 
               <div class="row">
@@ -111,7 +130,9 @@
 
          </form>	
         </div>
+              <?php } ?>
         </div>
+  
       <div class="reduced-padding">
     <hr /> 
      <div class="content padding-bottom-none">  

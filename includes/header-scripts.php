@@ -4,5 +4,12 @@
     <link rel="stylesheet" href="css/animation.css" />
     <link rel="stylesheet" href="css/ourwork.css" />
     <link rel="stylesheet" href="css/infographics.css" />
+    
+    
+          
+     <link rel="stylesheet" href="css/map.css" />
+    
+ 
+
 
     <script src="js/vendor/modernizr.js"></script>

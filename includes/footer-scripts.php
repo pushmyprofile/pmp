@@ -150,6 +150,14 @@ $(function(){
 });
 
     </script>
+
+<?php if ($currentpage == "http://pushmyprofile.devserver.xyz/hire-us.php") { ?>
+          
+         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAeeix-IL_mcEUc-AV5XInYWZ2mIp4x5o8"></script>
+         <script src="js/map.js"></script>
+      
+
+       <?php } ?>
   
 
 

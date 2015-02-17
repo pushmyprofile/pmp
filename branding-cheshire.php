@@ -27,7 +27,7 @@
       </div>
           <div class="large-6 columns init-button"><a class='text-center button left' href='#freewall'>See More</a></div>
     </div>
-    </section> 
+    </section>
     <div class="container">
     <section class="slope">
      <div class="row content">
