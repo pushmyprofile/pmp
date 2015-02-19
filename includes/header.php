@@ -1,8 +1,9 @@
 <?php include_once 'functions.php'; ?>
+<?php include_once 'analytics.php'; ?>
 <header>   
 <nav class="top-bar" data-topbar role="navigation"> 
 	<ul class="title-area"> 
-    	<li class="name show-for-medium-up"><a href="#"><img src="img/logo/pmp-logo.png" alt="Push My Profile Logo" /></a></li> 
+    	<li class="name show-for-medium-up"><a href="http://www.pushmyprofile.co.uk"><img src="img/logo/pmp-logo.png" alt="Push My Profile Logo" /></a></li> 
         <li class="name show-for-small-only"><h1><a href="#">Push My Profile</a> </h1></li> 
         <li class="toggle-topbar menu-icon">
         	<a href="#"><span></span></a></li> 

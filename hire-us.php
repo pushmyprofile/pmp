@@ -17,17 +17,17 @@
           <p class="lead">Ready to get started? Get A Fast Quote On Your Project.</p>    
       </div>
     </div>
-    <div class="row">
+    <div class="row hire-us-nav">
       <div class="large-4 columns">
            <img src="svg/phone.svg" alt="Get In Touch By Phone" />
              <h3 class="text-center">03333 208 088</h3>
           </div>
          <div class="large-4 columns">
-             <a href="#white-bg-form"><img src="svg/email.svg" alt="Get In Touch By email" /></a>
+             <a href=".white-bg-form"><img src="svg/email.svg" alt="Get In Touch By email" /></a>
             <h3 class="text-center">CONTACT FORM</h3>        
           </div>
          <div class="large-4 columns">
-             <img src="svg/office.svg" alt="Get In Touch By email" />
+             <a href="#cd-google-map"><img src="svg/office.svg" alt="Get In Touch By email" /></a>
                 <h3 class="text-center">FIND US</h3>   
           </div>
       
@@ -110,17 +110,7 @@
         </form>	
           </div>
             </section>
-            <section class="slope find-us">
-            
-               <section id="cd-google-map">
-	<div id="google-container"></div>
-	<div id="cd-zoom-in"></div>
-	<div id="cd-zoom-out"></div>
-	                
-</section>   
-                    
-          </section>
-           <section class="slope">
+             <section class="slope">
             <div class="row content">
       <div class="large-12 columns">
             <h2>Meet Our <span class="orange-text">Team.</span></h2>
@@ -155,6 +145,17 @@
         </div>
          </div>
       </section>
+            <section class="slope">
+            
+               <section id="cd-google-map">
+	<div id="google-container"></div>
+	<div id="cd-zoom-in"></div>
+	<div id="cd-zoom-out"></div>
+	                
+</section>   
+                    
+          </section>
+          
           
      
           

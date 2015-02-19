@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Digital & Brand Agency In Cheshire | Push My Profile</title>
-    <meta name="description" content="This is an example of a meta description. This will often show up in search results.">
+    <meta name="description" content="Push My Profile are Digtial & Brand Agency Based In Cheshire. We are digital experts with a business ethos. Come and find out more!">
     <?php include_once "includes/header-scripts.php" ?>
   </head>   
   <body>
@@ -64,14 +64,14 @@
              <figure class="our-work-item">
 						<img src="img/ourwork/small/lawn.png" alt="Lawn Perfection"/>
 						<figcaption>
-							<h2>Lawn <span>Perfection</span></h2>
+							<h2>Lawn <span>Perfection</span></h2>							
 							<ul class="inline-list tags">
                             <li>Web Design</li>
                             <li>Lead Generation</li>    
                             <li>Branding</li>
-                            <li>Marketing</</li>
+                            <li>Marketing</li>                                       
                             </ul>
-							<a href="#">View more</a>
+                        <a href="http://www.lawnperfection.co.uk" target="_blank">View more</a>
 						</figcaption>		
 					</figure>
              </li> 

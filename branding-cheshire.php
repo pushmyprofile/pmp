@@ -25,69 +25,152 @@
           </div>
               
       </div>
-          <div class="large-6 columns init-button"><a class='text-center button left' href='#freewall'>See More</a></div>
+      <div class="large-6 columns init-button"><a class='text-center button left' href='#freewall'>See More</a></div>
     </div>
+      </div>
     </section>
+      
+      
     <div class="container">
-    <section class="slope">
-     <div class="row content">
+        <section class="slope">
+             <div class="row content padding-bottom-clear">
+                  <div class="large-12 columns">
+                        <h2 class="text-center">Some Of Our <span class="orange-text">Branding</span></h2>
+                  </div>      
+             </div>
+        </section>
+             
+              <div id="brandingwall" class="content clear"> 
+           <ul class="small-block-grid-1 medium-blog-grid-2 large-block-grid-3">
+               <li>
+                     <figure class="our-work-item web-item">
+                        <img src="img/ourwork/branding/aqua-air.png" alt="Aqua Air"/> 
+                           <figcaption>
+                               <h2>Aqua Air</h2>
+                             <p>loren ipsum</p>
+                            </figcaption>  			
+                        </figure>
+                </li>
+               <li>
+                     <figure class="our-work-item web-item">
+                        <img src="img/ourwork/branding/lawnperfection.png" alt="Lawn Perfection"/> 
+                          
+                           <figcaption>
+                             <h2>Lawn Perfection</h2>
+                              <p>loren ipsum</p>                             
+                            </figcaption>  			
+                        </figure>
+                </li>
+                  <li>
+                     <figure class="our-work-item web-item">
+                        <img src="img/ourwork/webdesign/rainbow.png" alt="Rainbow Vacuums"/> 
+                          
+                           <figcaption>
+                             <h2>Rainbow Vacuums</h2>
+                             <div class="button-wrapper">
+                              <a class="button" href="http://www.rainbowvacuums.uk" target="_blank">View Website</a>
+                               </div>
+                             
+                            </figcaption>  			
+                        </figure>
+                </li>
+                 <li>
+                     <figure class="our-work-item web-item">
+                        <img src="img/ourwork/webdesign/itl-translations.png" alt="ITL Translations"/> 
+                          
+                           <figcaption>
+                             <h2>ITL Translations</h2>
+                             <div class="button-wrapper">
+                              <a class="button" href="http://www.itltranslations.com" target="_blank">View Website</a>
+                               </div>
+                             
+                            </figcaption>  			
+                        </figure>
+                </li>
+                <li>
+                     <figure class="our-work-item web-item">
+                        <img src="img/ourwork/webdesign/xtra.png" alt="Xtra Cleaning"/> 
+                          
+                           <figcaption>
+                             <h2>Xtra Cleaning</h2>
+                             <div class="button-wrapper">
+                              <a class="button" href="http://www.xtra.cleaning" target="_blank">View Website</a>
+                               </div>
+                             
+                            </figcaption>  			
+                        </figure>
+                </li>
+               <li>
+                     <figure class="our-work-item web-item">
+                        <img src="img/ourwork/webdesign/bladons.png" alt="Bladons"/> 
+                          
+                           <figcaption>
+                             <h2>Bladons</h2>
+                             <div class="button-wrapper">
+                              <a class="button" href="http://www.bladons.co.uk" target="_blank">View Website</a>
+                               </div>
+                             
+                            </figcaption>  			
+                        </figure>
+                </li>
+               <li>
+                     <figure class="our-work-item web-item">
+                        <img src="img/ourwork/webdesign/rockwell.png" alt="Rock Consult"/> 
+                          
+                           <figcaption>
+                             <h2>Rock Consult</h2>
+                             <div class="button-wrapper">
+                              <a class="button" href="http://www.rockconsult.co.uk" target="_blank">View Website</a>
+                               </div>
+                             
+                            </figcaption>  			
+                        </figure>
+                </li>
+                <li>
+                     <figure class="our-work-item web-item">
+                        <img src="img/ourwork/webdesign/balleballebistro.png" alt="Balle Balle Bistro"/> 
+                          
+                           <figcaption>
+                             <h2>Balle Balle Bistro</h2>
+                             <div class="button-wrapper">
+                              <a class="button" href="http://www.balleballebistro.com" target="_blank">View Website</a>
+                               </div>
+                             
+                            </figcaption>  			
+                        </figure>
+                </li>
+                <li>
+                     <figure class="our-work-item web-item">
+                        <img src="img/ourwork/webdesign/gentlemanwatchcollector.png" alt="Gentleman Watch Collector"/> 
+                          
+                           <figcaption>
+                             <h2>Gentleman Watch Collector</h2>
+                             <div class="button-wrapper">
+                              <a class="button" href="http://www.gentlemanwatchcollector.com" target="_blank">View Website</a>
+                               </div>
+                             
+                            </figcaption>  			
+                        </figure>
+                </li>
+          </ul>  
+         </div>
+    
+    
+        <section class="slope" id="haveachat">
+            <div class="row content mobile-content">
+                <div class="large-8 columns">
+                    <h3 class="button-align">Like our work? Have A Project? Get In Touch?</h3>
+                </div>
+                 <div class="large-4 columns">
+                     <a href="#footer" class="button">Have A Chat</a>
+                </div>
+            </div>
+     
+        </section>
 
-          <div id="freewall" class="free-wall">
-                  <div class="brick">
-                      <figure class="our-work-item">
-						<img src="img/ourwork/branding/aqua-air-2.png"/> 
-						<figcaption>
-		         	        <ul class="inline-list tags">
-                            <li>View More</li>
-                            
-                            </ul>
-							<a href="#">View more</a>
-						</figcaption>  			
-					</figure>
-		        
-          </div>
-              <div class="brick">
-		       <img src="img/ourwork/branding/revup.png"/>
-          </div>
-              
-             <div class="brick">
-		       <img src="img/ourwork/branding/lawn-perfection.png"/>
-          </div>   
-          <div class="brick">
-		        <img src="img/ourwork/branding/bladons.png"/>
-          </div>             
-                 <div class="brick">
-		       <img src="img/ourwork/branding/jos.png"/> 
-          </div>
-               <div class="brick">
-		       <img src="img/ourwork/branding/rockwell.png"/>
-          </div>
-                
-               <div class="brick">
-		        <img src="img/ourwork/branding/aqua-air.png" />
-          </div>  
-           
-                 <div class="brick">
-		        <img src="img/ourwork/branding/drylogs.png"/>
-          </div>
-                     
-               
-               <div class="brick">
-		       <img src="img/ourwork/branding/gentlemanwatchcollector.png"/>
-          </div>
-                 
-               <div class="brick">
-		       <img src="img/ourwork/branding/cheshire-trees.png"/>
-          </div>
-               <div class="brick">
-		       <img src="img/ourwork/branding/cushtie-cushions.png"/>
-          </div>
-            
-               
-          </div>
-         </div>           
+
         
-         </section>
+ 
             
 
           <?php include_once "includes/footer.php" ?> 

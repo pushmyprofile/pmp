@@ -27,165 +27,139 @@
       </div>
           <div class="large-6 columns init-button"><a class='text-center button left' href='#webdesignwall'>See More</a></div>
     </div>
-    </div>
     </section>
     <div class="container">
         <section class="slope">
-     <div class="row content padding-bottom-clear">
-      <div class="large-12 columns">
-            <h2>Our <span class="orange-text">Web Design.</span></h2>
-        </div>      
-         </div>   
-            </section>
-         
-  
-     <div class="content white">             
-          <div id="webdesignwall" class="free-wall">
-                  <div class="website">
-                      <figure class="our-work-item">
-						<img src="img/ourwork/webdesign/aqua-air.png"/> 
-						<figcaption>
-		         	        <ul class="inline-list tags">
-                            <li>View More</li>
-                            
-                            </ul>
-							<a href="#">View more</a>
-						</figcaption>  			
-					</figure>
-		        
-          </div>
-               <div class="website">
-                      <figure class="our-work-item">
-						<img src="img/ourwork/webdesign/lawn-perfection.png"/> 
-						<figcaption>
-		         	        <ul class="inline-list tags">
-                            <li>View More</li>
-                            
-                            </ul>
-							<a href="#">View more</a>
-						</figcaption>  			
-					</figure>
-		        
-          </div>
-               <div class="website">
-                      <figure class="our-work-item">
-						<img src="img/ourwork/webdesign/rainbow.png"/> 
-						<figcaption>
-		         	        <ul class="inline-list tags">
-                            <li>View More</li>
-                            
-                            </ul>
-							<a href="#">View more</a>
-						</figcaption>  			
-					</figure>
-		        
-          </div>
-                <div class="website">
-                      <figure class="our-work-item">
-						<img src="img/ourwork/webdesign/xtra.png"/> 
-						<figcaption>
-		         	        <ul class="inline-list tags">
-                            <li>View More</li>
-                            
-                            </ul>
-							<a href="#">View more</a>
-						</figcaption>  			
-					</figure>
-		        
-          </div>
-              <div class="website">
-                      <figure class="our-work-item">
-						<img src="img/ourwork/webdesign/bladons.png"/> 
-						<figcaption>
-		         	        <ul class="inline-list tags">
-                            <li>View More</li>
-                            
-                            </ul>
-							<a href="#">View more</a>
-						</figcaption>  			
-					</figure>
-		        
-          </div>
-               <div class="website">
-                      <figure class="our-work-item">
-						<img src="img/ourwork/webdesign/itl.png"/> 
-						<figcaption>
-		         	        <ul class="inline-list tags">
-                            <li>View More</li>
-                            
-                            </ul>
-							<a href="#">View more</a>
-						</figcaption>  			
-					</figure>
-		        
-          </div>
-              <div class="website">
-                      <figure class="our-work-item">
-						<img src="img/ourwork/webdesign/rockwell.png"/> 
-						<figcaption>
-		         	        <ul class="inline-list tags">
-                            <li>View More</li>
-                            
-                            </ul>
-							<a href="#">View more</a>
-						</figcaption>  			
-					</figure>
-		        
-          </div>
+             <div class="row content padding-bottom-clear">
+                  <div class="large-12 columns">
+                        <h2 class="text-center">Some Of Our <span class="orange-text">Web Design Work.</span></h2>
+                  </div>      
+             </div>
+        </section>
              
-          
-               <div class="website">
-                      <figure class="our-work-item">
-						<img src="img/ourwork/webdesign/balleballe.png"/> 
-						<figcaption>
-		         	        <ul class="inline-list tags">
-                            <li>View More</li>
-                            
-                            </ul>
-							<a href="#">View more</a>
-						</figcaption>  			
-					</figure>
-		        
-          </div>
-                  
-               <div class="website">
-                      <figure class="our-work-item">
-						<img src="img/ourwork/webdesign/abthomas.png"/> 
-						<figcaption>
-		         	        <ul class="inline-list tags">
-                            <li>View More</li>
-                            
-                            </ul>
-							<a href="#">View more</a>
-						</figcaption>  			
-					</figure>
-		        
-          </div>   
-                  <div class="website">
-                      <figure class="our-work-item">
-						<img src="img/ourwork/webdesign/gentlemanwatchcollector.png"/> 
-						<figcaption>
-		         	        <ul class="inline-list tags">
-                            <li>View More</li>
-                            
-                            </ul>
-							<a href="#">View more</a>
-						</figcaption>  			
-					</figure>
-		        
-          </div>
-               
-              
-                     
-               
-            
-            
-               
-          </div>
-        
+              <div id="webdesignwall" class="content clear"> 
+           <ul class="small-block-grid-1 medium-blog-grid-2 large-block-grid-3">
+               <li>
+                     <figure class="our-work-item web-item">
+                        <img src="img/ourwork/webdesign/aqua-air.png" alt="Aqua Air"/> 
+                           <figcaption>
+                               <h2>Aqua Air</h2>
+                             <div class="button-wrapper">
+                              <a class="button" href="http://www.aqua-air.co.uk" target="_blank">Visit Website</a>
+                               </div>
+                            </figcaption>  			
+                        </figure>
+                </li>
+               <li>
+                     <figure class="our-work-item web-item">
+                        <img src="img/ourwork/webdesign/lawnperfection.png" alt="Lawn Perfection"/> 
+                          
+                           <figcaption>
+                             <h2>Lawn Perfection</h2>
+                             <div class="button-wrapper">
+                              <a class="button" href="http://www.lawnperfection.co.uk" target="_blank">View Website</a>
+                               </div>
+                             
+                            </figcaption>  			
+                        </figure>
+                </li>
+                  <li>
+                     <figure class="our-work-item web-item">
+                        <img src="img/ourwork/webdesign/rainbow.png" alt="Rainbow Vacuums"/> 
+                          
+                           <figcaption>
+                             <h2>Rainbow Vacuums</h2>
+                             <div class="button-wrapper">
+                              <a class="button" href="http://www.rainbowvacuums.uk" target="_blank">View Website</a>
+                               </div>
+                             
+                            </figcaption>  			
+                        </figure>
+                </li>
+                 <li>
+                     <figure class="our-work-item web-item">
+                        <img src="img/ourwork/webdesign/itl-translations.png" alt="ITL Translations"/> 
+                          
+                           <figcaption>
+                             <h2>ITL Translations</h2>
+                             <div class="button-wrapper">
+                              <a class="button" href="http://www.itltranslations.com" target="_blank">View Website</a>
+                               </div>
+                             
+                            </figcaption>  			
+                        </figure>
+                </li>
+                <li>
+                     <figure class="our-work-item web-item">
+                        <img src="img/ourwork/webdesign/xtra.png" alt="Xtra Cleaning"/> 
+                          
+                           <figcaption>
+                             <h2>Xtra Cleaning</h2>
+                             <div class="button-wrapper">
+                              <a class="button" href="http://www.xtra.cleaning" target="_blank">View Website</a>
+                               </div>
+                             
+                            </figcaption>  			
+                        </figure>
+                </li>
+               <li>
+                     <figure class="our-work-item web-item">
+                        <img src="img/ourwork/webdesign/bladons.png" alt="Bladons"/> 
+                          
+                           <figcaption>
+                             <h2>Bladons</h2>
+                             <div class="button-wrapper">
+                              <a class="button" href="http://www.bladons.co.uk" target="_blank">View Website</a>
+                               </div>
+                             
+                            </figcaption>  			
+                        </figure>
+                </li>
+               <li>
+                     <figure class="our-work-item web-item">
+                        <img src="img/ourwork/webdesign/rockwell.png" alt="Rock Consult"/> 
+                          
+                           <figcaption>
+                             <h2>Rock Consult</h2>
+                             <div class="button-wrapper">
+                              <a class="button" href="http://www.rockconsult.co.uk" target="_blank">View Website</a>
+                               </div>
+                             
+                            </figcaption>  			
+                        </figure>
+                </li>
+                <li>
+                     <figure class="our-work-item web-item">
+                        <img src="img/ourwork/webdesign/balleballebistro.png" alt="Balle Balle Bistro"/> 
+                          
+                           <figcaption>
+                             <h2>Balle Balle Bistro</h2>
+                             <div class="button-wrapper">
+                              <a class="button" href="http://www.balleballebistro.com" target="_blank">View Website</a>
+                               </div>
+                             
+                            </figcaption>  			
+                        </figure>
+                </li>
+                <li>
+                     <figure class="our-work-item web-item">
+                        <img src="img/ourwork/webdesign/gentlemanwatchcollector.png" alt="Gentleman Watch Collector"/> 
+                          
+                           <figcaption>
+                             <h2>Gentleman Watch Collector</h2>
+                             <div class="button-wrapper">
+                              <a class="button" href="http://www.gentlemanwatchcollector.com" target="_blank">View Website</a>
+                               </div>
+                             
+                            </figcaption>  			
+                        </figure>
+                </li>
+          </ul>  
          </div>
-         <section class="slope" id="haveachat">
-            <div class="row">
+    
+    
+        <section class="slope" id="haveachat">
+            <div class="row content mobile-content">
                 <div class="large-8 columns">
                     <h3 class="button-align">Like our work? Have A Project? Get In Touch?</h3>
                 </div>
@@ -195,8 +169,6 @@
             </div>
      
         </section>
-         
-  
 
          
             

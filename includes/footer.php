@@ -8,8 +8,7 @@
              <div class="row">
          <h2>Opening Hours</h2>
           <h4>Monday - Friday: <span class="orange-text">8:30am - 6:00pm</span></h4>
-          <h4>Saturday: <span class="orange-text">9:00am - 12:30pm</span></h4>
-             </div>
+          <h4>Saturday: <span class="orange-text">9:00am - 12:30pm</span></h4>            
              <div class="social-icons">
              <h2>Social</h2>  
              <ul class="inline-list">
@@ -18,6 +17,7 @@
                  <li><a href="https://plus.google.com/109450061565906598916/" target="_blank"><i class="flaticon-google24"></i></a></li>                 
              </ul>           
              </div>
+         </div>
          </div>
           
          <?php if ($currentpage == "http://pushmyprofile.devserver.xyz/hire-us.php") { ?>
@@ -134,20 +134,24 @@
         </div>
   
       <div class="reduced-padding">
-    <hr /> 
-     <div class="content padding-bottom-none">  
-      <div class="large-7 columns">        
+    
+     <div class="content padding-bottom-none"> 
+     <hr />  
+     <div class="row">
+     
+      <div class="large-6 columns">        
          <p><?php echo date("Y"); ?>&copy;  Push My Profile Ltd | Company Number 09160051</p> 
         </div>
-          <div class="large-5 columns">
+          <div class="large-6 columns">
           <ul class="inline-list">
-          <li>Cookies</li>
-          <li>Privacy Policy</li>
-          <li>Boring Legal Stuff</li>
-          <li>Contact Us</li>
+              <li><a href="cookie-policy">Cookies</a></li>
+              <li><a href="privacy=policy">Privacy Policy</a></li>
+              <li><a href="terms-and-conditions">Boring Legal Stuff</a></li>
+              <li><a href="contact-us">Contact Us</a></li>
           </ul>
          </div>
         </div>
         </div>
+     </div>
 </footer>
     <?php include_once "includes/footer-scripts.php" ?>

@@ -17,7 +17,7 @@
 	 shuffle("page");	 	 
 	 </script>
 <script src="js/freewall.js"></script> 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 			var wall = new freewall("#freewall");
 			wall.reset({
 				selector: '.brick',
@@ -58,7 +58,7 @@
 			
 
 
-		</script>
+		</script>-->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   
      <script src="js/ourwork.js"></script>
@@ -102,7 +102,7 @@ $('.further-info').readmore({
 <script type="text/javascript">
  $(function() {
 	 
-	 $('#hero a, #haveachat a, #ourwork a, .seemore').bind('click',function(event){
+	 $('#hero a, #haveachat a, #ourwork a, .seemore, hire-us-nav a').bind('click',function(event){
         var $anchor = $(this);
  
         $('html, body').stop().animate({

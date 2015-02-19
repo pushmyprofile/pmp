@@ -646,19 +646,12 @@ color:#F8981D;
 }
 
 
-
-.top-bar-section li:not(.has-form) a:hover:not(.button)
-
+.right .orange:hover
 {
-
-
-
-
-
-	
-
+  
+    background:#fff;
+    
 }
-
 
 
 /* ###### HERO ############# */
@@ -848,6 +841,10 @@ transform: rotate (5deg);
     
 }
 
+ .slope.find-us {
+    margin-top: -325px;
+}
+
 
 
 .slope:nth-child(odd) .content h1, .slope:nth-child(odd) .content h2, .slope:nth-child(odd) .content h3, .slope:nth-child(odd) .content h4, .slope:nth-child(odd) .content h5, .slope:nth-child(odd) .content h6, .slope:nth-child(odd) .content p, .slope:nth-child(odd) .content li, .slope:nth-child(odd) .content a
@@ -912,7 +909,7 @@ margin:0 auto;
 
 
 
-padding:130px 100px 250px 100px;
+/*padding:130px 100px 250px 100px;*/
 
 	
 
@@ -1127,7 +1124,6 @@ figure p {
 figure.our-work-item {
 
 	background: #030c17;
-
 }
 
 
@@ -1280,6 +1276,53 @@ figure.our-work-item:hover img {
 
 	opacity: 0.4;
 
+}
+
+.our-work-item.web-item
+{
+
+max-width:100%;
+    
+max-height:100%;
+    
+    margin:0;
+    
+
+}
+
+.our-work-item:hover.web-item .button-wrapper
+{
+ 
+    opacity:1;
+    
+}
+
+.our-work-item.web-item .button-wrapper
+{
+ 
+    opacity: 0;
+
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+
+	transition: opacity 0.35s, transform 0.35s;
+
+	-webkit-transform: scale(1);
+
+	transform: scale(1);
+    
+}
+
+
+.web-item .button {
+    background: none repeat scroll 0 0 transparent;
+    border: 5px solid #fff;
+    box-shadow: none;
+}
+
+.web-item .button:hover {
+    background: none repeat scroll 0 0 transparent;
+    border: 5px solid #F8981D;
+    box-shadow: none;
 }
 
 
@@ -1460,15 +1503,15 @@ select
     width: 100%;
 } 
 
-#webdesignwall .our-work-item {
+#webdesignwall .our-work-item, #brandingwall .our-work-item {
     background: none repeat scroll 0 0 #fff;
 }
 
-#webdesignwall .our-work-item:hover {
+#webdesignwall .our-work-item:hover,#brandingwall .our-work-item:hover  {
     background: none repeat scroll 0 0 #030c17;
 }
 
-#webdesignwall figure
+#webdesignwall figure, #brandingwall figure
 {
  
     max-height:600px;
@@ -1479,9 +1522,15 @@ select
 #webdesignwall
 {
  
-    min-height:500px;
+    min-height:1000px;
     
 }
+
+#webdesignwall li, #brandingwall li {
+    margin: 0;
+    padding: 0;
+}
+
 
 
 
