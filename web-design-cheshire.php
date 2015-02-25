@@ -8,7 +8,7 @@
     <meta name="description" content="Push My Profile are a unique Web Design Company based in Cheshire. ">
     <?php include_once "includes/header-scripts.php" ?>
   </head>   
-  <body id="hero">
+  <body id="webdesign">
   <?php include_once "includes/header.php" ?>
   <section id="branding">     
     <div class="row">
@@ -30,7 +30,7 @@
     </section>
     <div class="container">
         <section class="slope">
-             <div class="row content padding-bottom-clear">
+             <div class="row content">
                   <div class="large-12 columns">
                         <h2 class="text-center">Some Of Our <span class="orange-text">Web Design Work.</span></h2>
                   </div>      
@@ -128,6 +128,19 @@
                             </figcaption>  			
                         </figure>
                 </li>
+                 <li>
+                     <figure class="our-work-item web-item">
+                        <img src="img/ourwork/webdesign/gentlemanwatchcollector.png" alt="Gentleman Watch Collector"/> 
+                          
+                           <figcaption>
+                             <h2>Gentleman Watch Collector</h2>
+                             <div class="button-wrapper">
+                              <a class="button" href="http://www.gentlemanwatchcollector.com" target="_blank">View Website</a>
+                               </div>
+                             
+                            </figcaption>  			
+                        </figure>
+                </li>
                 <li>
                      <figure class="our-work-item web-item">
                         <img src="img/ourwork/webdesign/balleballebistro.png" alt="Balle Balle Bistro"/> 
@@ -141,19 +154,7 @@
                             </figcaption>  			
                         </figure>
                 </li>
-                <li>
-                     <figure class="our-work-item web-item">
-                        <img src="img/ourwork/webdesign/gentlemanwatchcollector.png" alt="Gentleman Watch Collector"/> 
-                          
-                           <figcaption>
-                             <h2>Gentleman Watch Collector</h2>
-                             <div class="button-wrapper">
-                              <a class="button" href="http://www.gentlemanwatchcollector.com" target="_blank">View Website</a>
-                               </div>
-                             
-                            </figcaption>  			
-                        </figure>
-                </li>
+              
           </ul>  
          </div>
     

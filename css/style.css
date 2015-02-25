@@ -157,7 +157,13 @@ hr
 }
 
 
-
+.expertise {
+    border: 6px solid #f6f6f6;
+    color: #fff;
+    padding: 20px;
+    text-transform:uppercase;
+    text-align: center;
+}
 
 
 
@@ -245,12 +251,6 @@ margin-left: 20px;
     
 
 }
-
-
-
-
-
-
 
 /* #### GENERAL STYLES ##### */
 
@@ -442,6 +442,10 @@ font-size:22px;
     color: #fff;
 
     transition: none 0s ease 0s 
+        
+    background: none repeat scroll 0 0 transparent;
+    border: 5px solid #fff;
+    box-shadow: none;
 
 }
 
@@ -587,6 +591,13 @@ border-bottom:15px solid #fff;
 
 }
 
+.top-bar-section ul li
+{
+ 
+    margin:2px 8px 0px 0px;
+    
+}
+
 
 
 .top-bar-section ul.right
@@ -653,6 +664,28 @@ color:#F8981D;
     
 }
 
+#whoarewe #whoarewe > a, #branding #branding > a, #webdesign #webdesign > a, #marketing #marketing > a, #hireus #hireus > a
+{
+    
+   background: none repeat scroll 0 0 #fff !important;
+    color: #22a5d2; 
+    
+    top:0px;
+    
+    position:relative;
+
+
+
+box-shadow: 4px -5px #f8981d;
+
+
+
+
+    
+}
+
+
+
 
 /* ###### HERO ############# */
 
@@ -686,6 +719,13 @@ background-size: 1200px 450px;
 
 	
 
+}
+
+#expertise {
+
+    margin-top: 30px;
+    padding: 20px;
+    display:block;
 }
 
 
@@ -1290,6 +1330,15 @@ max-height:100%;
 
 }
 
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { 
+    @media { 
+        .our-work-item.web-item { height:300px; width:100%;
+        } 
+    } 
+}
+
+_::-webkit-full-page-media, _:future, :root .our-work-item.web-item{ height:300px; }
+
 .our-work-item:hover.web-item .button-wrapper
 {
  
@@ -1493,12 +1542,11 @@ select
 			}
 
 
-.brick figure.our-work-item .tags > li, .website figure.our-work-item .tags > li {
+figure.our-work-item .tags > li {
     background:none;
     color: #fff;
     font-size: 1rem;
-    margin: 50% 10px 10px;
-    padding: 5px;
+    padding: 5px !important;
     text-align: center;
     width: 100%;
 } 
@@ -1519,10 +1567,10 @@ select
     
 }
 
-#webdesignwall
+#webdesignwall, #brandingwall
 {
  
-    min-height:1000px;
+    min-height:950px;
     
 }
 

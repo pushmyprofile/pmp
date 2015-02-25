@@ -8,7 +8,7 @@
     <meta name="description" content="Push My Profile are Digtial & Brand Agency Based In Cheshire. We are digital experts with a business ethos. Come and find out more!">
     <?php include_once "includes/header-scripts.php" ?>
   </head>   
-  <body>
+  <body id="whoarewe">
   <?php include_once "includes/header.php" ?>
   <section id="hero">     
     <div class="row">
@@ -21,49 +21,77 @@
         </div>
       </div>
     </div>
+      
     </section>
+      <div id="expertise" class="">
+          <h2 class="text-center">Our Expertise.</h2>
+       <div class="large-4 columns">
+            
+                 <h3 class="hero expertise">Branding</h3>
+                
+          </div>
+           <div class="large-4 columns">          
+            <h3 class="hero expertise">Web Design</h3>  
+          </div>
+          <div class="large-4 columns">
+          <h3 class="hero expertise">Marketing</h3>
+          </div>
+      </div>
     <div class="container">
     <section class="slope">
      <div class="row content">
       <div id="expertise" class="large-12 columns">
-       <h2>Our <span class="orange-text">Expertise.</span></h2>
-	        <ul class="small-block-grid-3"> 
-            <li>
-            	<img class="rotate" src="img/icons/branding.png" alt="Branding Cheshire" />
-            	<h3 class="text-center">Branding</h3>    
-            </li> 
-            <li><img class="rotate" src="img/icons/web-design.png" alt="Web Design Cheshire" />
-            	<h3 class="text-center">Web Design</h3>    </li>
-            <li><img class="rotate" src="img/icons/digital-marketing.png" alt="Digital Marketing Cheshire" />
-            	<h3 class="text-center">Digital Marketing</h3></li> 
-            </ul> 
-            </div>
+       <h2>Who Are <span class="orange-text">We?</span></h2>
          
-          <div class="further-info">
-          <p class="text-center">
+	       <div class="large-12 columns">
+             <p class="text-center">
          Our Cheshire Digital Agency means we are on hand to work with businesses across the Northwest, offering a completely personal service whether it’s discussing a website, branding, marketing or business strategy. Or all of the above! We are a hard working boutique agency that take a great pride in our work and seeing our clients prosper. If you think you might have a project we can work on visit our Hire Us section to see if we stack up!
           </p>
               
-              <div class="button-center-wrapper"><div class="button-center-wrapper-inner"><a class="text-center button seemore" href="#our-work">Now lets See Some Work</a></div>
+                
           </div>
+           
+          
+            </div>
+         
+         
               
-      </div>
-          <div class="large-6 columns init-button"><a class='text-center button left seemore' href='#our-work'>See More</a></div>
+              <div class="button-center-wrapper"><div class="button-center-wrapper-inner"><a class="text-center button seemore" href="#our-work">Now lets See Some Work</a></div>
+          </div>              
+    
+         
             </div>
     </section>
      <section class="slope">
      <div class="row content padding-bottom-clear">
       <div class="large-12 columns">
-            <h2>Our <span class="orange-text">Work.</span></h2>
+            <h2>Our <span class="orange-text text-center">Work.</span></h2> 
         </div>      
          </div>   
          </section>
-         <div class="content clear " id="our-work">             
-         <ul class="our-work small-block-grid-1 medium-block-grid-2 large-block-grid-3">
-             <li>
-             <figure class="our-work-item">
-						<img src="img/ourwork/small/lawn.png" alt="Lawn Perfection"/>
-						<figcaption>
+         <div id="webdesignwall" class="content clear">
+              <ul class="small-block-grid-1 large-block-grid-1">
+              <li>
+                     <figure class="our-work-item web-item">
+                        <img src="img/ourwork/latest/aqua-air-big.png" alt="Aqua Air"/> 
+                          <figcaption>
+							<h2>Aqua<span> Air</span></h2>							
+							<ul class="inline-list tags">
+                            <li>Branding</li>
+                            <li>Web Design</li> 
+                            <li>Digital Marketing</li>
+                            <li>Event Management</li>  
+                             <li>Sales Process</li>                                     
+                            </ul>
+                         </figcaption>
+                        </figure>
+                </li>         
+             </ul>
+           <ul class="small-block-grid-1 medium-blog-grid-2 large-block-grid-2">
+               <li>
+                     <figure class="our-work-item web-item">
+                        <img src="img/ourwork/latest/lawnperfection.png" alt="Lawn Perfection"/> 
+                          <figcaption>
 							<h2>Lawn <span>Perfection</span></h2>							
 							<ul class="inline-list tags">
                             <li>Web Design</li>
@@ -71,119 +99,116 @@
                             <li>Branding</li>
                             <li>Marketing</li>                                       
                             </ul>
-                        <a href="http://www.lawnperfection.co.uk" target="_blank">View more</a>
-						</figcaption>		
-					</figure>
-             </li> 
-             <li>
-             <figure class="our-work-item">
-						<img src="img/ourwork/small/balle-balle.png" alt="img09"/>
-						<figcaption>
-							<h2>Balle Balle  <span>Bistro</span></h2>
-							<ul class="inline-list tags">
+                         </figcaption>
+                        </figure>
+                </li>
+                <li>
+                     <figure class="our-work-item web-item">
+                        <img src="img/ourwork/webdesign/xtra.png" alt="Xtra Cleaning"/> 
+                          
+                           <figcaption>
+							<h2>Xtra <span>Cleaning</span></h2>							
+							<ul class="inline-list tags">                            		
                             <li>Branding</li>
                             <li>Web ReDesign</li> 
-                            <li>Social Strategy</li>
+                            <li>Product Imagery</li>                                
                             </ul>
-							<a href="#">View more</a>
-						</figcaption>			
-					</figure>
-             </li> 
-             <li><figure class="our-work-item">
-						<img src="img/ourwork/small/aqua-air.png" alt="Aqua Air Website"/>
-						<figcaption>
-							<h2>Aqua  <span>Air</span></h2>
-					        <ul class="inline-list tags">
-                            <li>Branding</li>
-                            <li>Web Design</li> 
-                            <li>Digital Marketing</li>
-                            <li>Event Management</li>  
-                             <li>Sales Process</li> 
-                            </ul>
-							<a href="#">View more</a>
-						</figcaption>  			
-					</figure> 
-             </li>  
-                    <li><figure class="our-work-item">
-						<img src="img/ourwork/small/xtra.png" alt="Xtra.Cleaning"/>
-						<figcaption>
-							<h2>Xtra <span>Cleaning</span></h2>
-							<ul class="inline-list tags">
-                            <li>Branding</li>
-                            <li>Web ReDesign</li> 
-                            <li>Product Imagery</li>
-                            </ul>
-							<a href="#">View more</a>
-						</figcaption>				
-					</figure>
-             </li>
-            <li>
-             <figure class="our-work-item">
-						<img src="img/ourwork/small/rainbow.png" alt="Rainbow Vacumms"/>
-						<figcaption>
-							<h2>Rainbow <span>Vacuums</span></h2>
-							<ul class="inline-list tags">
-                            <li>Web Redesign</li>
-                            <li>Lead Generation</li> 
-                            <li>Branding</li>
-                            </ul>
-							<a href="#">View more</a>
-						</figcaption>		
-					</figure>
-             </li> 
-             <li>
-             <figure class="our-work-item">
-						<img src="img/ourwork/small/itl.png" alt="img09"/>
-						<figcaption>
-							<h2>ITL <span>Translations</span></h2>
-							<ul class="inline-list tags">
-                            <li>Web Redesign</li>
-                            <li>Lead Generation</li>                       
-                            </ul>
-							<a href="#">View more</a>
-						</figcaption>		
-					</figure>
-             </li> 
-              <li><figure class="our-work-item">
-						<img src="img/ourwork/small/hyperion.png" alt="Hyperion Executuve Search"/>
-						<figcaption>
-							<h2>Hyperion Executive <span>Search</span></h2>
-							<ul class="inline-list tags">
-                            <li>Social Branding</li>
-                            <li>Marketing</li> 
-                            <li>PPC</li>
-                            <li>Adwords</li>
-                            </ul>
-							<a href="#">View more</a>
-						</figcaption>				
-					</figure>
-             </li>
-             <li><figure class="our-work-item">
-						<img src="img/ourwork/small/bladons.png" alt="Bladons"/>
+                         </figcaption>				
+                        </figure>
+                </li>
+              
+               </ul>
+              <ul class="small-block-grid-1 medium-blog-grid-3 large-block-grid-3">
+                    <li>
+                    <figure class="our-work-item web-item">
+						<img src="img/ourwork/latest/bladons.png" alt="Bladons"/>
 						<figcaption>
 							<h2>Bladons</h2>
 							<ul class="inline-list tags">
-                            <li>Website Re-design</li>
+                               <li>Website Re-design</li>
                             <li>Branding</li> 
-                            <li>E-Commerce</li>                         
-                            </ul>
+                            <li>E-Commerce</li>     
+                               </ul>      
 							<a href="#">View more</a>
 						</figcaption>				
 					</figure>
-             </li>
-              <li><figure class="our-work-item">
-						<img src="img/ourwork/small/tony.png" alt="Tony Bailey Machinery"/>
-						<figcaption>
-							<h2>AML</h2>
+             </li>                
+              
+               <li>
+                     <figure class="our-work-item web-item">
+                        <img src="img/ourwork/latest/cushtiecushions.png" alt="Cushtie Cushions"/> 
+                          
+                         <figcaption>
+                            <h2>Cushtie <span>Cushions</span></h2>							
 							<ul class="inline-list tags">
-                            <li>Website Re-design</li>
-                            <li>Branding</li>                         
+                             <li>Branding</li>
+                            <li>Web Design</li> 
+                            <li>E-Commerce</li>
+                               </ul>               
+                             
+                            </figcaption> 
+                   </figure>
+                </li>
+                    <li>
+                     <figure class="our-work-item web-item">
+                        <img src="img/ourwork/latest/drylogs.png" alt="Dry Logs"/> 
+                          
+                         <figcaption>
+                            <h2>Dry<span> Logs</span></h2>							
+							<ul class="inline-list tags">
+                             <li>Branding</li>
+                            <li>Web Design</li> 
+                            <li>Marketing</li>
+                               </ul>               
+                             
+                            </figcaption>  			
+                        </figure>
+                </li>
+                    <li>
+                     <figure class="our-work-item web-item">
+                        <img src="img/ourwork/latest/balleballe.png" alt="Balle Balle Bistro"/> 
+                          
+                           <figcaption>
+                            <h2>Balle Balle <span>Bistro</span></h2>							
+							<ul class="inline-list tags">
+                             <li>Branding</li>
+                            <li>Web ReDesign</li> 
+                            <li>Social Strategy</li>
+                               </ul>               
+                             
+                            </figcaption>  			
+                        </figure>
+                </li>                
+               
+                
+                  
+                   <li>
+                     <figure class="our-work-item web-item">
+                        <img src="img/ourwork/latest/itl.png" alt="ITL Translations"/> 
+                          
+                           <figcaption>
+							<h2>ITL <span>Translations</span></h2>							
+							<ul class="inline-list tags">
+                            <li>Web Design</li>
+                            <li>Lead Generation</li>                                     
                             </ul>
-							<a href="#">View more</a>
-						</figcaption>				
-					</figure>
-             </li>
-         </ul>
+                         </figcaption>		
+                        </figure>  
+                </li>
+                <li>
+                     <figure class="our-work-item web-item">
+                        <img src="img/ourwork/latest/rockconsult.png" alt="Rock Consult"/> 
+                          
+                         <figcaption>
+							<h2>Rock<span> Consult</span></h2>							
+							<ul class="inline-list tags">
+                            <li>Web Design</li>                                
+                            </ul>
+                         </figcaption>				
+                        </figure>
+                </li>
+              
+          </ul>  
          </div>
 
         <section id="haveachat" class="slope">

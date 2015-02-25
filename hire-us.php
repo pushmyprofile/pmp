@@ -8,7 +8,7 @@
     <meta name="description" content="Hire Push My Profile to be your creative mind and bring your business to life! find out more">
     <?php include_once "includes/header-scripts.php" ?>
   </head>   
-  <body id="hero">
+  <body id="hireus">
   <?php include_once "includes/header.php" ?>
   <section id="branding">        
     <div class="row">   

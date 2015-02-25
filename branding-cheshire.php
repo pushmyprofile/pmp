@@ -8,7 +8,7 @@
     <meta name="description" content="Looking for Branding In Cheshire? We are experts in brand identity and create new brands to get the best out of your business. ">
     <?php include_once "includes/header-scripts.php" ?>
   </head>   
-  <body id="hero">
+  <body id="branding">
   <?php include_once "includes/header.php" ?>
   <section id="branding">     
     <div class="row">
@@ -33,14 +33,13 @@
       
     <div class="container">
         <section class="slope">
-             <div class="row content padding-bottom-clear">
+             <div class="row content">
                   <div class="large-12 columns">
                         <h2 class="text-center">Some Of Our <span class="orange-text">Branding</span></h2>
                   </div>      
              </div>
-        </section>
-             
-              <div id="brandingwall" class="content clear"> 
+        </section>             
+        <div id="brandingwall" class="content clear"> 
            <ul class="small-block-grid-1 medium-blog-grid-2 large-block-grid-3">
                <li>
                      <figure class="our-work-item web-item">
@@ -53,6 +52,30 @@
                 </li>
                <li>
                      <figure class="our-work-item web-item">
+                        <img src="img/ourwork/branding/xtra.png" alt="Xtra Cleaning"/> 
+                          
+                           <figcaption>
+                             <h2>Xtra Cleaning</h2>
+                              <p>loren ipsum</p>           
+                             
+                            </figcaption>  			
+                        </figure>
+                </li>
+               <li>
+                     <figure class="our-work-item web-item">
+                        <img src="img/ourwork/branding/bladons.png" alt="Bladons"/> 
+                          
+                           <figcaption>
+                             <h2>Bladons</h2>
+                              <p>loren ipsum</p>             
+                             
+                             
+                            </figcaption>  			
+                        </figure>
+                </li>
+               
+               <li>
+                     <figure class="our-work-item web-item">
                         <img src="img/ourwork/branding/lawnperfection.png" alt="Lawn Perfection"/> 
                           
                            <figcaption>
@@ -63,97 +86,68 @@
                 </li>
                   <li>
                      <figure class="our-work-item web-item">
-                        <img src="img/ourwork/webdesign/rainbow.png" alt="Rainbow Vacuums"/> 
+                        <img src="img/ourwork/branding/drylogs.png" alt="Dry Logs"/> 
                           
                            <figcaption>
-                             <h2>Rainbow Vacuums</h2>
-                             <div class="button-wrapper">
-                              <a class="button" href="http://www.rainbowvacuums.uk" target="_blank">View Website</a>
-                               </div>
+                             <h2>Dry Logs</h2>
+                               <p>loren ipsum</p>              
                              
-                            </figcaption>  			
+                            </figcaption>  	   		
                         </figure>
                 </li>
-                 <li>
+                 
+                
+               <li>
                      <figure class="our-work-item web-item">
-                        <img src="img/ourwork/webdesign/itl-translations.png" alt="ITL Translations"/> 
+                        <img src="img/ourwork/branding/jos.png" alt="Jo's Cheshire Kitchen"/> 
                           
                            <figcaption>
-                             <h2>ITL Translations</h2>
-                             <div class="button-wrapper">
-                              <a class="button" href="http://www.itltranslations.com" target="_blank">View Website</a>
-                               </div>
+                             <h2>Jo's Cheshire Kitchen</h2>
+                             
+                             <p>loren ipsum</p>      
+                            </figcaption>  			
+                        </figure>
+                </li>
+               <li>
+                     <figure class="our-work-item web-item">
+                        <img src="img/ourwork/branding/cushtie-cushions.png" alt="Cushtie Cushions"/> 
+                          
+                           <figcaption>
+                             <h2>Cushtie Cushion s</h2>
+                                <p>loren ipsum</p>      
+                             
                              
                             </figcaption>  			
                         </figure>
                 </li>
+                 
                 <li>
                      <figure class="our-work-item web-item">
-                        <img src="img/ourwork/webdesign/xtra.png" alt="Xtra Cleaning"/> 
+                        <img src="img/ourwork/branding/bluecat.png" alt="Blue Cat Store"/> 
                           
                            <figcaption>
-                             <h2>Xtra Cleaning</h2>
-                             <div class="button-wrapper">
-                              <a class="button" href="http://www.xtra.cleaning" target="_blank">View Website</a>
-                               </div>
+                             <h2>Blue Cat Store</h2>
+                                <p>loren ipsum</p>      
+                             
                              
                             </figcaption>  			
                         </figure>
                 </li>
                <li>
                      <figure class="our-work-item web-item">
-                        <img src="img/ourwork/webdesign/bladons.png" alt="Bladons"/> 
+                        <img src="img/ourwork/branding/tonybayley.png" alt="Tony Bayley Machine Sales"/> 
                           
                            <figcaption>
-                             <h2>Bladons</h2>
-                             <div class="button-wrapper">
-                              <a class="button" href="http://www.bladons.co.uk" target="_blank">View Website</a>
-                               </div>
+                             <h2>Tony Bayley</h2>
+                                <p>loren ipsum</p>      
+                             
                              
                             </figcaption>  			
                         </figure>
-                </li>
-               <li>
-                     <figure class="our-work-item web-item">
-                        <img src="img/ourwork/webdesign/rockwell.png" alt="Rock Consult"/> 
-                          
-                           <figcaption>
-                             <h2>Rock Consult</h2>
-                             <div class="button-wrapper">
-                              <a class="button" href="http://www.rockconsult.co.uk" target="_blank">View Website</a>
-                               </div>
-                             
-                            </figcaption>  			
-                        </figure>
-                </li>
-                <li>
-                     <figure class="our-work-item web-item">
-                        <img src="img/ourwork/webdesign/balleballebistro.png" alt="Balle Balle Bistro"/> 
-                          
-                           <figcaption>
-                             <h2>Balle Balle Bistro</h2>
-                             <div class="button-wrapper">
-                              <a class="button" href="http://www.balleballebistro.com" target="_blank">View Website</a>
-                               </div>
-                             
-                            </figcaption>  			
-                        </figure>
-                </li>
-                <li>
-                     <figure class="our-work-item web-item">
-                        <img src="img/ourwork/webdesign/gentlemanwatchcollector.png" alt="Gentleman Watch Collector"/> 
-                          
-                           <figcaption>
-                             <h2>Gentleman Watch Collector</h2>
-                             <div class="button-wrapper">
-                              <a class="button" href="http://www.gentlemanwatchcollector.com" target="_blank">View Website</a>
-                               </div>
-                             
-                            </figcaption>  			
-                        </figure>
-                </li>
+                </li> 
           </ul>  
          </div>
+    
     
     
         <section class="slope" id="haveachat">

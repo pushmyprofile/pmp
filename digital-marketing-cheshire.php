@@ -8,7 +8,7 @@
     <meta name="description" content="We Specialise in Digital Marketing and Business Processes in cheshire.  ">
     <?php include_once "includes/header-scripts.php" ?>
   </head>   
-  <body id="hero">
+  <body id="marketing">
   <?php include_once "includes/header.php" ?>
   <section id="branding">     
     <div class="row">

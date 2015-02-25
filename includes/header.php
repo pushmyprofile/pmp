@@ -12,7 +12,7 @@
     <section class="top-bar-section">     
     <!-- Right Nav Section --> 
     	<ul class="right"> 
-            <li id="whoweare"><a href="http://pushmyprofile.devserver.xyz">Who Are We</a></li> 
+            <li id="whoarewe"><a href="http://pushmyprofile.devserver.xyz">Who Are We</a></li> 
             <li id="branding"> <a href="branding-cheshire.php">Branding</a></li>
             <li id="webdesign"> <a href="web-design-cheshire.php">Web Design</a></li>
             <li id="marketing"> <a href="digital-marketing-cheshire.php">Digital Marketing</a></li>
