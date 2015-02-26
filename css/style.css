@@ -707,18 +707,11 @@ padding-top:30px;
 
 /* background:url("/img/svg/pmp_office.svg") no-repeat scroll center 250px rgba(0, 0, 0, 0); */
 
-    background:url("/img/pmp-office.jpg") no-repeat scroll center 230px / 1200px 450px rgba(0, 0, 0, 0);
-
-
-
-background-size: 1200px 450px;
-
-    
-
-
-
-	
-
+    background:url("/img/pmp-office.jpg");
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,0);
+    background-size: 1200px 450px;
+    background-position: center 230px;
 }
 
 #expertise {
@@ -726,6 +719,13 @@ background-size: 1200px 450px;
     margin-top: 30px;
     padding: 20px;
     display:block;
+}
+
+#hero > section
+{
+ 
+    margin-top:50px;
+    
 }
 
 
@@ -767,6 +767,8 @@ margin:0 -100px;
 -0-transform-origin: left center;
 
 transform-origin: left center;
+    
+    padding-top:20px;
 
 	
 

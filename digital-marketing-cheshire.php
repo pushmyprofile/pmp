@@ -24,7 +24,7 @@
           </div>
               
       </div>
-          <div class="large-6 columns init-button"><a class='text-center button left' href='#lawnperfection'>See More</a></div>
+          <div class="medium-6 large-6 columns init-button"><a class='text-center button left' href='#lawnperfection'>See More</a></div>
     </div>
       </div>
         
@@ -46,10 +46,10 @@
             </section>
            <section id="haveachat" class="slope">
             <div class="row content mobile-content">
-                <div class="large-8 columns">
+                <div class="medium-7 large-8 columns">
                     <h3 class="button-align">Want to see how we can help you? Get In Touch?</h3>
                 </div>
-                 <div class="large-4 columns">
+                 <div class="medium-5 large-4 large-4 columns">
                      <a class="button" href="#footer">Have A Chat</a></h3>
                 </div>
             </div>

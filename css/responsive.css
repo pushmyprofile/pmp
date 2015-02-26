@@ -35,7 +35,7 @@ header
 .top-bar-section ul.right
 {
 
-margin-top:0;
+margin-top:5px;
 	
 }
 
@@ -72,8 +72,13 @@ width:100%;
 button, .button
 {
 
-display:block;
+
 	
+}
+    
+.button-center-wrapper-inner {
+
+    width: 100%;
 }
 
 section#hero
@@ -213,7 +218,7 @@ figure
 }
     
     .content p {
-    font-size: 10px;
+    font-size: 16px;
 }
     
     footer .reduced-padding .inline-list > li {
@@ -289,8 +294,19 @@ figure
 .top-bar-section ul.right
 {
    
-    margin-top:0px;
+    margin-top:5px;  
     
+}
+    
+    .top-bar-section ul li
+    {
+     
+        margin:2px 7px 0 0;
+        
+    }
+    
+    .row.content {
+    padding: 100px 80px 180px;
 }
     
 .top-bar-section li:not(.has-form) a:not(.button)
@@ -299,8 +315,74 @@ figure
      font-size:1.1em;   
 }
     
+    figure img
+    {
+    
+        min-height:150px;
+        
+    }
+    
+    #lawnperfection svg, #aquaair svg
+    {
+     
+        width:800px;
+        
+    }
+    
+    p, a, li
+    {
+     
+        letter-spacing: 0.2px;
+        
+    }
+    
+    input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+    border: 10px solid #fff;
+    font-size: 2rem;
+    height: 4.5rem;
+}
+    
+    select {
+    font-size: 2rem;
+    font-weight: bold;
+    height: 4rem;
+}
+    
 
     
+}
+
+
+/* Potrait Styles */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) and (orientation:portrait)  {
+
+section#hero
+    {
+     
+        padding-bottom:250px;
+        
+    }
+    
+    .top-bar-section ul
+    {
+        
+     font-size:10px;   
+        
+    }
+    
+    .top-bar-section ul.right
+    {
+     
+        margin-top:-12px;
+        
+    }
+    
+    .row.content {
+    padding: 100px 140px 180px;
+}
+
+
 }
 
 /* ###### EXTRA LARGE SCREEN STYLES ######## */
@@ -308,9 +390,23 @@ figure
 .row.content
 {
   
-padding: 200px 40px 180px;
+padding: 150px 40px 350px;
     
 }
+    
+    figure img
+    {
+     
+        width:100%;
+        
+    }
+    
+    .slope
+    {
+     
+        margin:0 -5%
+        
+    }
     
 .row
  {
@@ -371,7 +467,28 @@ padding: 200px 40px 180px;
        
         background:url("/img/pmp-office.jpg") no-repeat scroll center 300px / 1200px 450px rgba(0, 0, 0, 0);
         
+        min-height:680px;
+        
     }
+    
+    #lawnperfection svg, #aquaair svg
+    {
+        
+     width:1300px !important;   
+        
+    }
+    
+       input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"] {
+    border: 10px solid #fff;
+    font-size: 2rem;
+    height: 4.5rem;
+}
+    
+    select {
+    font-size: 2rem;
+    font-weight: bold;
+    height: 4rem;
+}
         
         
     

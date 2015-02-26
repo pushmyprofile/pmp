@@ -41,7 +41,7 @@
     <section class="slope">
      <div class="row content">
       <div id="expertise" class="large-12 columns">
-       <h2>Who Are <span class="orange-text">We?</span></h2>
+       <h2 class="text-center">Who Are <span class="orange-text">We?</span></h2> 
          
 	       <div class="large-12 columns">
              <p class="text-center">
@@ -56,7 +56,7 @@
          
          
               
-              <div class="button-center-wrapper"><div class="button-center-wrapper-inner"><a class="text-center button seemore" href="#our-work">Now lets See Some Work</a></div>
+              <div class="button-center-wrapper"><div class="button-center-wrapper-inner"><a class="text-center button seemore" href="#our-work">See Our Work</a></div>
           </div>              
     
          
@@ -87,7 +87,7 @@
                         </figure>
                 </li>         
              </ul>
-           <ul class="small-block-grid-1 medium-blog-grid-2 large-block-grid-2">
+           <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-2">
                <li>
                      <figure class="our-work-item web-item">
                         <img src="img/ourwork/latest/lawnperfection.png" alt="Lawn Perfection"/> 
@@ -118,7 +118,7 @@
                 </li>
               
                </ul>
-              <ul class="small-block-grid-1 medium-blog-grid-3 large-block-grid-3">
+              <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
                     <li>
                     <figure class="our-work-item web-item">
 						<img src="img/ourwork/latest/bladons.png" alt="Bladons"/>
@@ -213,10 +213,10 @@
 
         <section id="haveachat" class="slope">
             <div class="row content mobile-content">
-                <div class="large-8 columns">
+                <div class="medium-7 large-8 columns">
                     <h3 class="button-align">Like our work? Have A Project? Get In Touch?</h3>
                 </div>
-                 <div class="large-4 columns">
+                 <div class="medium-5 large-4 columns">
                      <a class="button" href="#footer">Have A Chat</a></h3>
                 </div>
             </div>

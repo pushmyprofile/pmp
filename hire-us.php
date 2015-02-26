@@ -18,15 +18,15 @@
       </div>
     </div>
     <div class="row hire-us-nav">
-      <div class="large-4 columns">
+      <div class="medium-4 large-4 columns">
            <img src="svg/phone.svg" alt="Get In Touch By Phone" />
              <h3 class="text-center">03333 208 088</h3>
           </div>
-         <div class="large-4 columns">
-             <a href=".white-bg-form"><img src="svg/email.svg" alt="Get In Touch By email" /></a>
+         <div class="medium-4 large-4 columns">
+             <a href="#projectform"><img src="svg/email.svg" alt="Get In Touch By email" /></a>
             <h3 class="text-center">CONTACT FORM</h3>        
           </div>
-         <div class="large-4 columns">
+         <div class="medium-4 large-4 columns">
              <a href="#cd-google-map"><img src="svg/office.svg" alt="Get In Touch By email" /></a>
                 <h3 class="text-center">FIND US</h3>   
           </div>
@@ -35,7 +35,7 @@
     </section>
       <div class="container">        
       <section class="slope">
-     <div class="row content white-bg-form">
+     <div class="row content white-bg-form" id="projectform">
             <h2>Your Project Details</h2> 
                 <form data-abide id="yourproject" method="post" action="#">
                     <div class="row">
@@ -145,7 +145,7 @@
         </div>
          </div>
       </section>
-            <section class="slope">
+            <section class="slope clear">
             
                <section id="cd-google-map">
 	<div id="google-container"></div>

@@ -25,7 +25,7 @@
           </div>
               
       </div>
-          <div class="large-6 columns init-button"><a class='text-center button left' href='#webdesignwall'>See More</a></div>
+          <div class="medium-6 large-6 columns init-button"><a class='text-center button left' href='#webdesignwall'>See More</a></div>
     </div>
     </section>
     <div class="container">
@@ -38,7 +38,7 @@
         </section>
              
               <div id="webdesignwall" class="content clear"> 
-           <ul class="small-block-grid-1 medium-blog-grid-2 large-block-grid-3">
+           <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
                <li>
                      <figure class="our-work-item web-item">
                         <img src="img/ourwork/webdesign/aqua-air.png" alt="Aqua Air"/> 
@@ -161,10 +161,10 @@
     
         <section class="slope" id="haveachat">
             <div class="row content mobile-content">
-                <div class="large-8 columns">
+                <div class="medium-7 large-8 columns">
                     <h3 class="button-align">Like our work? Have A Project? Get In Touch?</h3>
                 </div>
-                 <div class="large-4 columns">
+                 <div class="medium-5 large-4 columns">
                      <a href="#footer" class="button">Have A Chat</a>
                 </div>
             </div>

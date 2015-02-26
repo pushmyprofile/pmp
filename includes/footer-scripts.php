@@ -75,7 +75,7 @@
 $('.further-info').readmore({
   speed: 175,
     lessLink: '',
-    moreLink: '<div class="large-6 columns init-button"><a class="text-center button right" href="#">Read More</a></div>',
+    moreLink: '<div class="medium-6 large-6 columns init-button"><a class="text-center button right" href="#">Read More</a></div>',
     collapsedHeight: 0,
     beforeToggle: function(trigger, element, expanded) {
       

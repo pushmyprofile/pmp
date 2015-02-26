@@ -1,6 +1,6 @@
  <footer class="slope">
      <div class="row content padding-bottom-none">
-         <div id="footer" class="large-5 columns">
+         <div id="footer" class="medium-5 large-5 columns">
              <div class="row">
          <h2>Call Us</h2> 
           <h3>03333 208 088</h3>
@@ -23,7 +23,7 @@
          <?php if ($currentpage == "http://pushmyprofile.devserver.xyz/hire-us.php") { ?>
           
        
-         <div class="large-7 columns">
+         <div class="medium-7 large-7 columns">
            <h2>Our Address</h2>
            <address>
                <p>Push My Profile</p>
@@ -36,7 +36,7 @@
 
        <?php } else { ?>
      
-         <div class="large-7 columns">
+         <div class="medium-7 large-7 columns">
          <h2>Send Us A Message</h2>
              <h2><?php echo $pageURL; ?></h2>
               
@@ -139,10 +139,10 @@
      <hr />  
      <div class="row">
      
-      <div class="large-6 columns">        
+      <div class="small-6 medium-6 large-6 columns">        
          <p><?php echo date("Y"); ?>&copy;  Push My Profile Ltd | Company Number 09160051</p> 
         </div>
-          <div class="large-6 columns">
+          <div class="small-6 medium-6 large-6 columns">
           <ul class="inline-list">
               <li><a href="cookie-policy">Cookies</a></li>
               <li><a href="privacy=policy">Privacy Policy</a></li>
