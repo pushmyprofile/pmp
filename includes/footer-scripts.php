@@ -102,7 +102,7 @@ $('.further-info').readmore({
 <script type="text/javascript">
  $(function() {
 	 
-	 $('#hero a, #haveachat a, #ourwork a, .seemore, hire-us-nav a').bind('click',function(event){
+	 $('#hero a, #haveachat a, #ourwork a, .seemore, hire-us-nav a, #branding a ').bind('click',function(event){
         var $anchor = $(this);
  
         $('html, body').stop().animate({

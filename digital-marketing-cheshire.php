@@ -20,11 +20,11 @@
           Branding can take different forms and there is a lot to think. You might be starting a new brand or your company needs a complete rebrand. Starting with a logo and colour scheme is just the start. Once these have been agreed they must be applied across a huge range of media including websites, business stationary, signage, vehicle writing, product packaging, brochures, uniforms – depending on your company this can be a long list! Rest assured we can have it all designed and branded for you taking the hassle out of brand creation or rebranding.
           </p>
               
-              <div class="button-center-wrapper"><div class="button-center-wrapper-inner"><a class="text-center button" href="#lawnperfection">See Some Companys We Have Worked With</a></div>
+              <div class="button-center-wrapper"><div class="button-center-wrapper-inner"><a class="text-center button" href="#lawnperfection">See Work</a></div>
           </div>
               
       </div>
-          <div class="medium-6 large-6 columns init-button"><a class='text-center button left' href='#lawnperfection'>See More</a></div>
+          <div class="medium-6 large-6 columns init-button"><a class='text-center button left' href='#lawnperfection'>See Work</a></div>
     </div>
       </div>
         

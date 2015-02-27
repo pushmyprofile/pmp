@@ -21,11 +21,11 @@
           We take on all aspects of Web Design – new websites, website redesigns, e-commerce, mobile optimized, responsive websites. We have the skills to make it work across all platforms and look pretty slick too! 
           </p>
               
-              <div class="button-center-wrapper"><div class="button-center-wrapper-inner"><a class="text-center button" href="#webdesignwall">See some of our work</a></div>
+              <div class="button-center-wrapper"><div class="button-center-wrapper-inner"><a class="text-center button" href="#webdesignwall">See Work</a></div>
           </div>
               
       </div>
-          <div class="medium-6 large-6 columns init-button"><a class='text-center button left' href='#webdesignwall'>See More</a></div>
+          <div class="medium-6 large-6 columns init-button"><a class='text-center button left' href='#webdesignwall'>See Work</a></div>
     </div>
     </section>
     <div class="container">

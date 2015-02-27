@@ -10,6 +10,14 @@ text-align:center;
 	
 }
     
+        
+    #google-container
+    {
+     
+        height:300px !important;
+        
+    }
+    
 h2
 {
      
@@ -277,6 +285,16 @@ figure
         
     }
     
+    
+    .footer-bottom p, .footer-bottom a
+    {
+        
+     font-size:10px; 
+    
+     letter-spacing:0.2px;
+        
+    }
+    
 
 
 }
@@ -347,6 +365,7 @@ figure
     font-weight: bold;
     height: 4rem;
 }
+
     
 
     

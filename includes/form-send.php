@@ -35,9 +35,9 @@ if (isset($_POST['hireus'])) {
 	$subject = 'Hire Us - Project Request';
 	
 	//List expected fields
-	$expected = array('name', 'position',  'email', 'phone', 'websiteurl', 'worktostart', 'budget' );
+	$expected = array('name', 'position',  'email', 'phone', 'websiteurl', 'worktype', 'budget' );
 	//Set required fields
-	$required = array('name', 'email', 'phone', 'worktostart', 'budget');
+	$required = array('name', 'email', 'phone', 'worktostart', 'budget', 'worktype');
 	// Create Additional Headers
 	$headers = "From: Push My Profile <info@pushmyprofile.co.uk>\r\n";
 	$headers .= 'Content-Type: text/plain; charset=utf-8';
@@ -45,7 +45,7 @@ if (isset($_POST['hireus'])) {
 	require_once('processmail.php');
 		
 	if ($mailSent) {
-	header('Location: thankyou');
+	header('Location: project-details.php');
 	exit;
 	
   }

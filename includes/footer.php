@@ -23,7 +23,7 @@
          <?php if ($currentpage == "http://pushmyprofile.devserver.xyz/hire-us.php") { ?>
           
        
-         <div class="medium-7 large-7 columns">
+         <div class="medium-7 large-7 columns clear">
            <h2>Our Address</h2>
            <address>
                <p>Push My Profile</p>
@@ -40,7 +40,7 @@
          <h2>Send Us A Message</h2>
              <h2><?php echo $pageURL; ?></h2>
               
-         <form data-abide id="sendusamessage" method="post" action="#">
+         <form data-abide id="message" method="post" action="#">
 
               <div class="row">
 
@@ -133,21 +133,23 @@
               <?php } ?>
         </div>
   
-      <div class="reduced-padding">
+      <div class="large-12 columns footer-bottom">
     
      <div class="content padding-bottom-none"> 
      <hr />  
      <div class="row">
      
-      <div class="small-6 medium-6 large-6 columns">        
-         <p><?php echo date("Y"); ?>&copy;  Push My Profile Ltd | Company Number 09160051</p> 
+      <div class="small-12 medium-3 large-3 columns">        
+         <p><?php echo date("Y"); ?>&copy;  Push My Profile Ltd</p> 
         </div>
-          <div class="small-6 medium-6 large-6 columns">
+          <div class="small-12 medium-9 large-9 columns">
           <ul class="inline-list">
+               <li><a href="website-redesign">Redesign</a></li>
+               <li><a href="website-redesign">Pay Monthly</a></li>
               <li><a href="cookie-policy">Cookies</a></li>
               <li><a href="privacy=policy">Privacy Policy</a></li>
               <li><a href="terms-and-conditions">Boring Legal Stuff</a></li>
-              <li><a href="contact-us">Contact Us</a></li>
+             
           </ul>
          </div>
         </div>

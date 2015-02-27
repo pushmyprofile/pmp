@@ -44,13 +44,13 @@
                             <input type="text" name="name" id="name" required pattern="[a-zA-Z0-9]+" placeholder="*"<?php if ($missingfields || $errorfields) { echo  'value="' . htmlentities($name, ENT_COMPAT, 'UTF-8') . '"'; }?>> <small class="error">Please enter your name</small> 		             	 
                         </div> 
                          <div class="large-6 columns">
-            	           <label>Your Position</label> 
+            	           <label>Position</label> 
                             <input type="text" name="position" id="position" pattern="[a-zA-Z0-9]+" placeholder=""<?php if ($missingfields || $errorfields) { echo  'value="' . htmlentities($position, ENT_COMPAT, 'UTF-8') . '"'; }?>> <small class="error">Please enter your position</small> 		  
                         </div>
                         </div>     
                         <div class="row">
                           <div class="large-6 columns">
-                              <label>E-mail address</label> 
+                              <label>E-mail</label> 
                                 <input type="email" name="email" id="email" required placeholder="*"
                      <?php if ($missingfields || $errorfields) { echo  'value="' . htmlentities($email, ENT_COMPAT, 'UTF-8') . '"'; }?>> <small class="error">Please enter your e-mail</small> 	
                             <div class="email-field"> 
@@ -58,8 +58,8 @@
                               </div>
                            </div>
                               <div class="large-6 columns">
-                               <label>Phone Number</label> 
-                     <input type="text" name="phone" id="phone" required pattern="^\s*\(?(020[7,8]{1}\)?[ ]?[1-9]{1}[0-9{2}[ ]?[0-9]{4})|(0[1-8]{1}[0-9]{3}\)?[ ]?[1-9]{1}[0-9]{2}[ ]?[0-9]{3})\s*$" placeholder="*"
+                               <label>Telephone</label> 
+                     <input type="text" name="phone" id="phone" required placeholder="*"
                      <?php if ($missingfields || $errorfields) { echo  'value="' . htmlentities($phone, ENT_COMPAT, 'UTF-8') . '"'; }?>> <small class="error">Please enter your phone number</small> 
                                <div class="email-field"> 
      				 <?php if ($missingfields && in_array('phone', $missingfields)) { ?><p><span class="formwarning">Please enter your phone number</span></p><?php } ?>
@@ -68,7 +68,7 @@
                             </div>
                     <div class="row">
                        <div class="large-6 columns">
-                               <label>Website URL</label> 
+                               <label>Your Website</label> 
                      <input type="url" name="websiteurl" id="websiteurl" placeholder="*" value="http://"
                      <?php if ($missingfields || $errorfields) { echo  'value="' . htmlentities($websiteurl, ENT_COMPAT, 'UTF-8') . '"'; }?>> <small class="error">Please enter a valid website url e.g http://www.yourdomain.com</small> 
                                <div class="email-field"> 
@@ -81,24 +81,21 @@
                     </div>
                         <div class="row">
                        <div class="large-6 columns">
-                        <label>When would you like work to start?</label> 
-                        <select id="worktostart" name="worktostart">
-                          <option value="ASAP">ASAP</option>
-                          <option value="2 - 4 Weeks">2 - 4 Weeks</option>
-                          <option value="4 - 6 Weeks">4 - 6 Weeks</option>
-                          <option value="2 Months+">2 Months+</option>
+                        <label>What are you looking for?</label> 
+                        <select id="worktype" name="worktype" required>
+                          <option value="Branding">Branding</option>
+                          <option value="Web Design">Web Design</option>
+                          <option value="Marketing">Marketing</option>
+                          <option value="Everything">I need everything!</option>
                         </select> 
                  </div>
                              <div class="large-6 columns">
                         <label>Whats Your budget?</label> 
                         <select id="budget" name="budget">
                           <option value="1000">1000+</option>
-                          <option value="2000+">2000+</option>
-                          <option value="3000+">3000+</option>
-                          <option value="4000+">4000+</option>
-                        <option value="6000+">6000+</option>
-                        <option value="6000+">8000+</option>
-                        <option value="6000+">10000+</option>
+                          <option value="5000+">5000+</option>
+                          <option value="10000+">10000+</option>
+                          <option value="20000+">20000+</option>                       
                         </select> 
                  </div>
                               </div>      
@@ -130,13 +127,13 @@
                 
                 </li>
                 <li>
-                <img src="img/team/mike.png">
+                <img src="img/team/scott.png">
                  <h3>Mike</h3>
                  <p>Head <span class="orange-text">Designer</span></p>
                 
                 </li>
                 <li>
-                <img src="img/team/lucy.png">
+                <img src="img/team/pippa.png">
                  <h3>Lucy</h3>
                  <p>Client <span class="orange-text">Services</span></p>
                 

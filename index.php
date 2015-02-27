@@ -56,7 +56,7 @@
          
          
               
-              <div class="button-center-wrapper"><div class="button-center-wrapper-inner"><a class="text-center button seemore" href="#our-work">See Our Work</a></div>
+              <div class="button-center-wrapper"><div class="button-center-wrapper-inner"><a class="text-center button seemore" href="#webdesignwall">See Our Work</a></div>
           </div>              
     
          
@@ -217,7 +217,7 @@
                     <h3 class="button-align">Like our work? Have A Project? Get In Touch?</h3>
                 </div>
                  <div class="medium-5 large-4 columns">
-                     <a class="button" href="#footer">Have A Chat</a></h3>
+                     <a class="button" href="#footer">Have A Chat</a>
                 </div>
             </div>
      
@@ -230,26 +230,26 @@
          <div class="large-12 columns">
             <ul class="our-team small-block-grid-2 large-block-grid-4">
              <li>
-                <img src="img/team/james.png">
+                <img src="img/team/james.png" alt="James">
                  <h3>James</h3>
                  <p>Managing <span class="orange-text">Director</span></p>
                 
                 </li>
                 <li>
-                <img src="img/team/nick.png">
+                <img src="img/team/nick.png" alt="Nick">
                  <h3>Nick</h3>
                  <p>Creative <span class="orange-text">Director</span></p>
                 
                 </li>
                 <li>
-                <img src="img/team/mike.png">
-                 <h3>Mike</h3>
+                <img src="img/team/scott.png" alt="Scott">
+                 <h3>Scott</h3>
                  <p>Head <span class="orange-text">Designer</span></p>
                 
                 </li>
                 <li>
-                <img src="img/team/lucy.png">
-                 <h3>Lucy</h3>
+                <img src="img/team/pippa.png" alt="Pippa">
+                 <h3>Pippa</h3>
                  <p>Client <span class="orange-text">Services</span></p>
                 
                 </li>
@@ -278,6 +278,8 @@
                 
       </div>
       </section>-->
+    
       <?php include_once "includes/footer.php" ?> 
+      </div>
    </body>
 </html>
